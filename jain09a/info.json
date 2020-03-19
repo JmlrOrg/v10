@@ -1,0 +1,16 @@
+{
+    "abstract": "Finite structures such as point patterns, strings, trees, and graphs occur\nas \"natural\" representations of structured data in different application\nareas of machine learning. We develop the theory of <i>structure spaces</i>\nand derive geometrical and analytical concepts such as the angle between\nstructures and the derivative of functions on structures. In particular, we\nshow that the gradient of a differentiable structural function is a\nwell-defined structure pointing in the direction of steepest\nascent. Exploiting the properties of structure spaces, it will turn out that\na number of problems in structural pattern recognition such as central\nclustering or learning in structured output spaces can be formulated as\noptimization problems with cost functions that are locally Lipschitz. Hence,\nmethods from nonsmooth analysis are applicable to optimize those cost\nfunctions.",
+    "authors": [
+        "Brijnesh J. Jain",
+        "Klaus Obermayer"
+    ],
+    "id": "jain09a",
+    "issue": 92,
+    "pages": [
+        2667,
+        2714
+    ],
+    "title": "Structure Spaces",
+    "volume": "10",
+    "year": "2009"
+}

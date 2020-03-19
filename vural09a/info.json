@@ -1,0 +1,19 @@
+{
+    "abstract": "Most classification methods assume that the samples are drawn\nindependently and identically from an unknown data generating\ndistribution, yet this assumption is violated in several real life\nproblems. In order to relax this assumption, we consider the case\nwhere batches or groups of samples may have internal correlations,\nwhereas the samples from different batches may be considered to be\nuncorrelated.  This paper introduces three algorithms for classifying\nall the samples in a batch jointly: one based on a probabilistic\nformulation, and two based on mathematical programming analysis.\nExperiments on three real-life <i>computer aided diagnosis</i> (CAD)\nproblems demonstrate that the proposed algorithms are significantly\nmore accurate than a naive support vector machine which ignores the\ncorrelations among the samples.",
+    "authors": [
+        "Volkan Vural",
+        "Glenn Fung",
+        "Balaji Krishnapuram",
+        "Jennifer G. Dy",
+        "Bharat Rao"
+    ],
+    "id": "vural09a",
+    "issue": 7,
+    "pages": [
+        183,
+        206
+    ],
+    "title": "Using Local Dependencies within Batches to Improve Large Margin Classifiers",
+    "volume": "10",
+    "year": "2009"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nWe propose a novel framework for supervised learning of discrete\nconcepts.  Since the 1970's, the standard computational primitive has\nbeen to find the most consistent hypothesis in a given complexity\nclass. In contrast, in this paper we propose a new basic operation:\nfor each pair of input instances, count how many concepts of bounded\ncomplexity contain both of them.\n</p>\n\n<p>\nOur approach maps instances to a Hilbert space, whose metric is\ninduced by a universal kernel coinciding with our computational\nprimitive, and identifies concepts with half-spaces.  We prove that\nall concepts are linearly separable under this mapping.  Hence, given\na labeled sample and an oracle for evaluating the universal kernel, we\ncan efficiently compute a linear classifier (via SVM, for example) and\nuse margin bounds to control its generalization error.  Even though\nexact evaluation of the universal kernel may be infeasible, in various\nnatural situations it is efficiently approximable.\n</p>\n\n<p>\nThough our approach is general, our main application is to regular\nlanguages.  Our approach presents a substantial departure from current\nlearning paradigms and in particular yields a novel method for\nlearning this fundamental concept class. Unlike existing techniques,\nwe make no structural assumptions on the corresponding unknown\nautomata, the string distribution or the completeness of the training\nset.  Instead, given a labeled sample our algorithm outputs a\nclassifier with guaranteed distribution-free generalization bounds; to\nour knowledge, the proposed framework is the only one capable of\nachieving the latter.  Along the way, we touch upon several\nfundamental questions in complexity, automata, and machine learning.\n</p>",
+    "authors": [
+        "Leonid (Aryeh) Kontorovich",
+        "Boaz Nadler"
+    ],
+    "id": "kontorovich09a",
+    "issue": 38,
+    "pages": [
+        1095,
+        1129
+    ],
+    "title": "Universal Kernel-Based Learning with Applications to Regular Languages",
+    "volume": "10",
+    "year": "2009"
+}

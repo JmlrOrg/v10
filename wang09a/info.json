@@ -1,0 +1,17 @@
+{
+    "abstract": "In classification, semisupervised learning usually involves a large\namount of unlabeled data with only a small number of labeled\ndata. This imposes a great challenge in that it is difficult to\nachieve good classification performance through labeled data alone. To\nleverage unlabeled data for enhancing classification, this article\nintroduces a large margin semisupervised learning method within the\nframework of regularization, based on an efficient margin loss for\nunlabeled data, which seeks efficient extraction of the information\nfrom unlabeled data for estimating the Bayes decision boundary for\nclassification. For implementation, an iterative scheme is derived\nthrough conditional expectations. Finally, theoretical and numerical\nanalyses are conducted, in addition to an application to gene function\nprediction. They suggest that the proposed method enables to recover\nthe performance of its supervised counterpart based on complete data\nin rates of convergence, when possible.",
+    "authors": [
+        "Junhui Wang",
+        "Xiaotong Shen",
+        "Wei Pan"
+    ],
+    "id": "wang09a",
+    "issue": 24,
+    "pages": [
+        719,
+        742
+    ],
+    "title": "On Efficient Large Margin Semisupervised Learning: Method and Theory",
+    "volume": "10",
+    "year": "2009"
+}

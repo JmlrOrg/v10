@@ -1,0 +1,16 @@
+{
+    "abstract": "We address the problem of improving the reliability of\nindependence-based causal discovery algorithms that results from the\nexecution of statistical independence tests on small data sets, which\ntypically have low reliability.  We model the problem as a knowledge\nbase containing a set of independence facts that are related through\nPearl's well-known axioms.  Statistical tests on finite data sets may\nresult in errors in these tests and inconsistencies in the knowledge\nbase.  We resolve these inconsistencies through the use of an instance\nof the class of defeasible logics called argumentation, augmented with\na preference function, that is used to reason about and possibly\ncorrect errors in these tests.  This results in a more robust\nconditional independence test, called an <i>argumentative\nindependence test</i>.  Our experimental evaluation shows clear positive\nimprovements in the accuracy of argumentative over purely statistical\ntests.  We also demonstrate significant improvements on the accuracy\nof causal structure discovery from the outcomes of independence tests\nboth on sampled data from randomly generated causal models and on\nreal-world data sets.",
+    "authors": [
+        "Facundo Bromberg",
+        "Dimitris Margaritis"
+    ],
+    "id": "bromberg09a",
+    "issue": 11,
+    "pages": [
+        301,
+        340
+    ],
+    "title": "Improving the Reliability of Causal Discovery from Small Data Sets Using Argumentation",
+    "volume": "10",
+    "year": "2009"
+}

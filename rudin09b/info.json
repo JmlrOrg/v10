@@ -1,0 +1,15 @@
+{
+    "abstract": "We are interested in supervised ranking algorithms that perform\nespecially well near the top of the ranked list, and are only required\nto perform sufficiently well on the rest of the list.  In this work,\nwe provide a general form of convex objective that gives high-scoring\nexamples more importance. This \"push\" near the top of the list can be\nchosen arbitrarily large or small, based on the preference of the\nuser. We choose <i>l<sub>p</sub></i>-norms to provide a specific type of push; if\nthe user sets <i>p</i> larger, the objective concentrates harder on the top\nof the list.  We derive a generalization bound based on the <i>p</i>-norm\nobjective, working around the natural asymmetry of the problem. We\nthen derive a boosting-style algorithm for the problem of ranking with\na push at the top.  The usefulness of the algorithm is illustrated\nthrough experiments on repository data. We prove that the minimizer of\nthe algorithm's objective is unique in a specific sense. Furthermore,\nwe illustrate how our objective is related to quality measurements for\ninformation retrieval.",
+    "authors": [
+        "Cynthia Rudin"
+    ],
+    "id": "rudin09b",
+    "issue": 77,
+    "pages": [
+        2233,
+        2271
+    ],
+    "title": "The P-Norm Push: A Simple Convex Ranking Algorithm that Concentrates at the Top of the List",
+    "volume": "10",
+    "year": "2009"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "We introduce a new nonlinear model for classification, in which we\nmodel the joint distribution of response variable, <i>y</i>, and\ncovariates, <i>x</i>, non-parametrically using Dirichlet process\nmixtures. We keep the relationship between <i>y</i> and <i>x</i> linear within\neach component of the mixture. The overall relationship becomes\nnonlinear if the mixture contains more than one component, with\ndifferent regression coefficients. We use simulated data to compare the\nperformance of this new approach to alternative methods such as\nmultinomial logit (MNL) models, decision trees, and support vector\nmachines. We also evaluate our approach on two classification\nproblems: identifying the folding class of protein sequences and\ndetecting Parkinson's disease. Our model can sometimes improve\npredictive accuracy. Moreover, by grouping observations into\nsub-populations (i.e., mixture components), our model can sometimes provide\ninsight into hidden structure in the data.",
+    "authors": [
+        "Babak Shahbaba",
+        "Radford Neal"
+    ],
+    "id": "shahbaba09a",
+    "issue": 62,
+    "pages": [
+        1829,
+        1850
+    ],
+    "title": "Nonlinear Models Using Dirichlet Process Mixtures",
+    "volume": "10",
+    "year": "2009"
+}

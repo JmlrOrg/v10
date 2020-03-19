@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose hashing to facilitate efficient kernels. This generalizes\n  previous work using sampling and we show a principled way to compute\n  the kernel matrix for data streams and sparse feature\n  spaces. Moreover, we give deviation bounds from the exact kernel\n  matrix. This has applications to estimation on strings and graphs.",
+    "authors": [
+        "Qinfeng Shi",
+        "James Petterson",
+        "Gideon Dror",
+        "John Langford",
+        "Alex Smola",
+        "S.V.N. Vishwanathan"
+    ],
+    "id": "shi09a",
+    "issue": 89,
+    "pages": [
+        2615,
+        2637
+    ],
+    "title": "Hash Kernels for Structured Data",
+    "volume": "10",
+    "year": "2009"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "Due to the scale and computational complexity of currently used simulation\ncodes, global surrogate (metamodels) models have become indispensable tools for\nexploring and understanding the design space. Due to their compact\nformulation they are cheap to evaluate and thus readily facilitate\nvisualization, design space exploration, rapid prototyping, and sensitivity\nanalysis. They can also be used as accurate building blocks in design\npackages or larger simulation environments. Consequently, there is\ngreat interest in techniques that facilitate the construction of such\napproximation models while minimizing the computational cost and maximizing\nmodel accuracy. Many surrogate model types exist (Support Vector Machines,\nKriging, Neural Networks, etc.) but no type is optimal in all circumstances.\nNor is there any hard theory available that can help make this choice.\nIn this paper we present an automatic approach to the model type selection\nproblem. We describe an adaptive global surrogate modeling environment\nwith adaptive sampling, driven by speciated evolution. Different model\ntypes are evolved cooperatively using a Genetic Algorithm (heterogeneous\nevolution) and compete to approximate the iteratively selected data.\nIn this way the optimal model type and complexity for a given data set\nor simulation code can be dynamically determined. Its utility and\nperformance is demonstrated on a number of problems where it outperforms\ntraditional sequential execution of each model type.",
+    "authors": [
+        "Dirk Gorissen",
+        "Tom Dhaene",
+        "Filip De Turck"
+    ],
+    "id": "gorissen09a",
+    "issue": 70,
+    "pages": [
+        2039,
+        2078
+    ],
+    "title": "Evolutionary Model Type Selection for Global Surrogate Modeling",
+    "volume": "10",
+    "year": "2009"
+}

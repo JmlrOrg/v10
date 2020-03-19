@@ -1,0 +1,16 @@
+{
+    "abstract": "The standard maximum margin approach for structured prediction lacks\na straightforward probabilistic interpretation of the learning\nscheme and the prediction rule. Therefore its unique advantages such\nas dual sparseness and kernel tricks cannot be easily conjoined with\nthe merits of a probabilistic model such as Bayesian regularization,\nmodel averaging, and ability to model hidden variables. In this\npaper, we present a new general framework called <i>maximum\nentropy discrimination Markov networks</i> (MaxEnDNet, or simply,\nMEDN), which integrates these two approaches and combines and\nextends their merits. Major innovations of this approach include: 1)\nIt extends the conventional max-entropy discrimination learning of\nclassification rules to a new <i>structural</i> max-entropy\ndiscrimination paradigm of learning a distribution of Markov\nnetworks. 2) It generalizes the extant Markov network\nstructured-prediction rule based on a point estimator of model\ncoefficients to an averaging model akin to a Bayesian predictor that\nintegrates over a learned posterior distribution of model\ncoefficients. 3) It admits flexible entropic regularization of the\nmodel during learning. By plugging in different prior distributions\nof the model coefficients, it subsumes the well-known maximum margin\nMarkov networks (M<sup>3</sup>N) as a special case, and leads to a model\nsimilar to an <i>L</i><sub>1</sub>-regularized M<sup>3</sup>N that is simultaneously primal\nand dual sparse, or other new types of Markov networks. 4) It\napplies a modular learning algorithm that combines existing\nvariational inference techniques and convex-optimization based\nM<sup>3</sup>N solvers as subroutines.\nEssentially, MEDN can be understood as a jointly maximum\nlikelihood and maximum margin estimate of Markov network. It\nrepresents the first successful attempt to combine maximum entropy\nlearning (a dual form of maximum likelihood learning) with maximum\nmargin learning of Markov network for structured input/output\nproblems; and the basic principle can be generalized to learning\narbitrary graphical models, such as the generative Bayesian networks\nor models with structured hidden variables. We discuss a number of\ntheoretical properties of this approach, and show that empirically it\noutperforms a wide array of competing methods for structured\ninput/output learning on both synthetic and real OCR and web data\nextraction data sets.",
+    "authors": [
+        "Jun Zhu",
+        "Eric P. Xing"
+    ],
+    "id": "zhu09a",
+    "issue": 87,
+    "pages": [
+        2531,
+        2569
+    ],
+    "title": "Maximum Entropy Discrimination Markov Networks",
+    "volume": "10",
+    "year": "2009"
+}

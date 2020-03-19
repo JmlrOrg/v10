@@ -1,0 +1,16 @@
+{
+    "abstract": "We continue our recent study on constructing a <i>refinement\nkernel</i> for a given kernel so that the reproducing kernel Hilbert\nspace associated with the refinement kernel contains that with the\noriginal kernel as a subspace. To motivate this study, we first\ndevelop a refinement kernel method for learning, which gives an\nefficient algorithm for updating a learning predictor. Several\ncharacterizations of refinement kernels are then presented. It is\nshown that a nontrivial refinement kernel for a given kernel always\nexists if the input space has an infinite cardinal number.\nRefinement kernels for translation invariant kernels and\nHilbert-Schmidt kernels are investigated. Various concrete examples\nare provided.",
+    "authors": [
+        "Yuesheng Xu",
+        "Haizhang Zhang"
+    ],
+    "id": "xu09a",
+    "issue": 3,
+    "pages": [
+        107,
+        140
+    ],
+    "title": "Refinement of Reproducing Kernels",
+    "volume": "10",
+    "year": "2009"
+}

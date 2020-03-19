@@ -1,0 +1,17 @@
+{
+    "abstract": "We consider a general class of regularization methods which\nlearn a vector of parameters on the basis of linear measurements. It\nis well known that if the regularizer is a nondecreasing function of\nthe <i>L</i><sub>2</sub> norm, then the learned vector is a linear combination of\nthe input data. This result, known as the <i>representer theorem</i>, lies at\nthe basis of kernel-based methods in machine learning. In this paper,\nwe prove the necessity of the above condition, in the case of differentiable regularizers. \nWe further extend our analysis to regularization methods which learn a matrix, a\nproblem which is motivated by the application to multi-task\nlearning. In this context, we study a more general representer\ntheorem, which holds for a larger class of regularizers. We provide a\nnecessary and sufficient condition characterizing this class of matrix\nregularizers and we highlight some concrete examples of\npractical importance. Our analysis uses basic principles from matrix\ntheory, especially the useful notion of matrix nondecreasing functions.",
+    "authors": [
+        "Andreas Argyriou",
+        "Charles A. Micchelli",
+        "Massimiliano Pontil"
+    ],
+    "id": "argyriou09a",
+    "issue": 86,
+    "pages": [
+        2507,
+        2529
+    ],
+    "title": "When Is There a Representer Theorem?  Vector Versus Matrix Regularizers",
+    "volume": "10",
+    "year": "2009"
+}

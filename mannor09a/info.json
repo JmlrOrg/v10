@@ -1,0 +1,17 @@
+{
+    "abstract": "We study online learning where a decision maker interacts with Nature\nwith the objective of maximizing her long-term average reward subject\nto some sample path average constraints.  We define the\nreward-in-hindsight as the highest reward the decision maker could\nhave achieved, while satisfying the constraints, had she known\nNature's choices in advance. We show that in general the\nreward-in-hindsight is <i>not</i> attainable. The convex hull of the\nreward-in-hindsight function is, however, attainable. For the\nimportant case of a single constraint, the convex hull turns out to be\nthe highest attainable function. Using a calibrated forecasting rule,\nwe provide an explicit strategy that attains this convex hull. We also\nmeasure the performance of heuristic methods based on non-calibrated\nforecasters in experiments involving a CPU power management problem.",
+    "authors": [
+        "Shie Mannor",
+        "John N. Tsitsiklis",
+        "Jia Yuan Yu"
+    ],
+    "id": "mannor09a",
+    "issue": 19,
+    "pages": [
+        569,
+        590
+    ],
+    "title": "Online Learning with Sample Path Constraints",
+    "volume": "10",
+    "year": "2009"
+}

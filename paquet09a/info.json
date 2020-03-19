@@ -1,0 +1,17 @@
+{
+    "abstract": "Bayesian inference is intractable for many interesting models, making\ndeterministic algorithms for approximate inference highly desirable.\nUnlike stochastic methods, which are exact in the limit,\nthe accuracy of these approaches cannot be reasonably judged.\nIn this paper we show how low order perturbation corrections to\nan expectation-consistent (EC) approximation can provide the necessary tools\nto ameliorate inference accuracy, and to give\nan indication of the quality of approximation without having to resort\nto Monte Carlo methods.\nFurther comparisons are given with variational Bayes and\nparallel tempering (PT) combined with\nthermodynamic integration on a Gaussian mixture\nmodel. To obtain practical results we further generalize PT to temper from\narbitrary distributions rather than a prior in Bayesian inference.",
+    "authors": [
+        "Ulrich Paquet",
+        "Ole Winther",
+        "Manfred Opper"
+    ],
+    "id": "paquet09a",
+    "issue": 42,
+    "pages": [
+        1263,
+        1304
+    ],
+    "title": "Perturbation Corrections in Approximate Inference: Mixture Modelling Applications",
+    "volume": "10",
+    "year": "2009"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "Nondeterministic classifiers are defined as those allowed to predict\nmore than one class for some entries from an input space. Given that\nthe true class should be included in predictions and the number of\nclasses predicted should be as small as possible, these kind of\nclassifiers can be considered as Information Retrieval (IR)\nprocedures. In this paper, we propose a family of IR loss functions to\nmeasure the performance of nondeterministic learners.  After\ndiscussing such measures, we derive an algorithm for learning optimal\nnondeterministic hypotheses. Given an entry from the input space, the\nalgorithm requires the posterior probabilities to compute the subset\nof classes with the lowest expected loss. From a general point of\nview, nondeterministic classifiers provide an improvement in the\nproportion of predictions that include the true class compared to\ntheir deterministic counterparts; the price to be paid for this\nincrease is usually a tiny proportion of predictions with more than\none class.  The paper includes an extensive experimental study using\nthree deterministic learners to estimate posterior probabilities: a\nmulticlass Support Vector Machine (SVM), a Logistic Regression, and a\nNa&#x00EF;ve Bayes. The data sets considered comprise both UCI\nmulti-class learning tasks and microarray expressions of different\nkinds of cancer. We successfully compare nondeterministic classifiers\nwith other alternative approaches. Additionally, we shall see how the\nquality of posterior probabilities (measured by the Brier score)\ndetermines the goodness of nondeterministic predictions.",
+    "authors": [
+        "Juan Jos&#x00E9; del Coz",
+        "Jorge D&#x00ED;ez",
+        "Antonio Bahamonde"
+    ],
+    "id": "delcoz09a",
+    "issue": 78,
+    "pages": [
+        2273,
+        2293
+    ],
+    "title": "Learning Nondeterministic Classifiers",
+    "volume": "10",
+    "year": "2009"
+}

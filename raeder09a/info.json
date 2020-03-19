@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper presents Model Monitor (<i>M</i><sup>2</sup>), a Java toolkit for robustly\nevaluating machine learning algorithms in the presence of changing\ndata distributions.  <i>M</i><sup>2</sup> provides a simple and intuitive framework\nin which users can evaluate classifiers under hypothesized shifts in\ndistribution and therefore determine the best model (or models) for\ntheir data under a number of potential scenarios.  Additionally, <i>M</i><sup>2</sup>\nis fully integrated with the WEKA machine learning environment, so\nthat a variety of commodity classifiers can be used if desired.",
+    "authors": [
+        "Troy Raeder",
+        "Nitesh V. Chawla"
+    ],
+    "id": "raeder09a",
+    "issue": 46,
+    "pages": [
+        1387,
+        1390
+    ],
+    "title": "Model Monitor (M2): Evaluating, Comparing, and Monitoring Models",
+    "volume": "10",
+    "year": "2009"
+}

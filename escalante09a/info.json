@@ -1,0 +1,17 @@
+{
+    "abstract": "This paper proposes the application of particle swarm optimization\n(<i>PSO</i>) to the problem of <i>full model selection, FMS,</i> for\nclassification tasks. <i>FMS</i> is defined as follows: given a pool\nof preprocessing methods, feature selection and learning algorithms,\nto select the combination of these that obtains the lowest\nclassification error for a given data set; the task also includes the\nselection of hyperparameters for the considered methods. This problem\ngenerates a vast search space to be explored, well suited for\nstochastic optimization techniques.  <i>FMS</i> can be applied to any\nclassification domain as it does not require domain knowledge.\nDifferent model types and a variety of algorithms can be considered\nunder this formulation.  Furthermore, competitive yet simple models\ncan be obtained with <i>FMS</i>.  We adopt <i>PSO</i> for the search\nbecause of its proven performance in different problems and because of\nits simplicity, since neither expensive computations nor complicated\noperations are needed.  Interestingly, the way the search is guided\nallows <i>PSO</i> to avoid overfitting to some extend.  Experimental\nresults on benchmark data sets give evidence that the proposed\napproach is very effective, despite its simplicity.  Furthermore,\nresults obtained in the framework of a model selection challenge show\nthe competitiveness of the models selected with <i>PSO</i>, compared\nto models selected with other techniques that focus on a single\nalgorithm and that use domain knowledge.",
+    "authors": [
+        "Hugo Jair Escalante",
+        "Manuel Montes",
+        "Luis Enrique Sucar"
+    ],
+    "id": "escalante09a",
+    "issue": 14,
+    "pages": [
+        405,
+        440
+    ],
+    "title": "Particle Swarm Model Selection",
+    "volume": "10",
+    "year": "2009"
+}

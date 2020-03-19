@@ -1,0 +1,16 @@
+{
+    "abstract": "Various relationships are shown hold between monotonic effects and weak\nmonotonic effects and the monotonicity of certain conditional expectations.\nCounterexamples are provided to show that the results do not hold under less\nrestrictive conditions. Monotonic effects are furthermore used to relate\nsigned edges on a causal directed acyclic graph to qualitative effect\nmodification. The theory is applied to an example concerning the direct\neffect of smoking on cardiovascular disease controlling for\nhypercholesterolemia. Monotonicity assumptions are used to construct a test\nfor whether there is a variable that confounds the relationship between the\nmediator, hypercholesterolemia, and the outcome, cardiovascular disease.",
+    "authors": [
+        "Tyler J. VanderWeele",
+        "James M. Robins"
+    ],
+    "id": "vanderweele09a",
+    "issue": 23,
+    "pages": [
+        699,
+        718
+    ],
+    "title": "Properties of Monotonic Effects on Directed Acyclic Graphs",
+    "volume": "10",
+    "year": "2009"
+}

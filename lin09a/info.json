@@ -1,0 +1,17 @@
+{
+    "abstract": "Inference in Bayesian statistics involves the\nevaluation of marginal likelihood integrals.\nWe present algebraic algorithms for computing\nsuch integrals exactly for discrete data of small sample size.\nOur methods apply to\nboth  uniform priors and Dirichlet priors.\nThe underlying statistical models are\nmixtures of independent distributions, or,\nin geometric language, \nsecant varieties of Segre-Veronese varieties.",
+    "authors": [
+        "Shaowei Lin",
+        "Bernd Sturmfels",
+        "Zhiqiang Xu"
+    ],
+    "id": "lin09a",
+    "issue": 54,
+    "pages": [
+        1611,
+        1631
+    ],
+    "title": "Marginal Likelihood Integrals for Mixtures of Independence Models",
+    "volume": "10",
+    "year": "2009"
+}

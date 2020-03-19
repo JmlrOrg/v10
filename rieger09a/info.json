@@ -1,0 +1,16 @@
+{
+    "abstract": "We introduce a new technique for the analysis of kernel-based\nregression problems. The basic tools are sampling inequalities which\napply to all machine learning problems involving penalty terms induced\nby kernels related to Sobolev spaces. They lead to explicit\ndeterministic results concerning the worst case behaviour of\n&#949;- and &#957;-SVRs. Using these, we show how to adjust\nregularization parameters to get best possible approximation orders\nfor regression. The results are illustrated by some numerical\nexamples.",
+    "authors": [
+        "Christian Rieger",
+        "Barbara Zwicknagl"
+    ],
+    "id": "rieger09a",
+    "issue": 72,
+    "pages": [
+        2115,
+        2132
+    ],
+    "title": "Deterministic Error Analysis of Support Vector Regression and Related Regularized Kernel Methods",
+    "volume": "10",
+    "year": "2009"
+}

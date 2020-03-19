@@ -1,0 +1,17 @@
+{
+    "abstract": "In the machine learning community, the Bayesian scoring criterion is\nwidely used for model selection problems. One of the fundamental\ntheoretical properties justifying the usage of the Bayesian scoring\ncriterion is its consistency. In this paper we refine this property\nfor the case of binomial Bayesian network models. As a by-product of\nour derivations we establish strong consistency and obtain the law of\niterated logarithm for the Bayesian scoring criterion.",
+    "authors": [
+        "Nikolai Slobodianik",
+        "Dmitry Zaporozhets",
+        "Neal Madras"
+    ],
+    "id": "slobodianik09a",
+    "issue": 51,
+    "pages": [
+        1511,
+        1526
+    ],
+    "title": "Strong Limit Theorems for the Bayesian Scoring Criterion in Bayesian Networks",
+    "volume": "10",
+    "year": "2009"
+}

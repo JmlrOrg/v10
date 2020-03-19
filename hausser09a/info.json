@@ -1,0 +1,16 @@
+{
+    "abstract": "We present a procedure for effective estimation of entropy and mutual\ninformation from small-sample data, and apply it to the problem of\ninferring high-dimensional gene association networks. Specifically, we\ndevelop a James-Stein-type shrinkage estimator, resulting in a procedure\nthat is highly efficient statistically as well as computationally.\nDespite its simplicity, we show that it outperforms eight other entropy\nestimation procedures across a diverse range of sampling scenarios and\ndata-generating models, even in cases of severe undersampling. We\nillustrate the approach by analyzing <i>E. coli</i> gene expression data and\ncomputing an entropy-based gene-association network from gene expression\ndata. A computer program is available that implements the proposed\nshrinkage estimator.",
+    "authors": [
+        "Jean Hausser",
+        "Korbinian Strimmer"
+    ],
+    "id": "hausser09a",
+    "issue": 49,
+    "pages": [
+        1469,
+        1484
+    ],
+    "title": "Entropy Inference and the James-Stein Estimator, with Application to Nonlinear Gene Association Networks",
+    "volume": "10",
+    "year": "2009"
+}

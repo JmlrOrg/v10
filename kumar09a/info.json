@@ -1,0 +1,17 @@
+{
+    "abstract": "<p>\nThe problem of obtaining the maximum <i>a posteriori</i> estimate of a\ngeneral discrete Markov random field (i.e., a Markov random field\ndefined using a discrete set of labels) is known to be \nNP-hard. However, due to its central importance in many applications,\nseveral approximation algorithms have been proposed in the\nliterature. In this paper, we present an analysis of three such\nalgorithms based on convex relaxations: (i) LP-S: the linear\nprogramming (LP) relaxation proposed by Schlesinger (1976)\nfor a special case and independently in  Chekuri et al. (2001), \nKoster et al. (1998), and Wainwright et al. (2005) for the general case;\n(ii) QP-RL: the quadratic programming (QP) relaxation of\nRavikumar and Lafferty (2006); and (iii) SOCP-MS: the second order\ncone programming (SOCP) relaxation first proposed by\nMuramatsu and Suzuki (2003) for two label problems and later extended by\nKumar et al. (2006) for a general label set.\n</p>\n<p>\nWe show that the SOCP-MS and the QP-RL relaxations are\nequivalent. Furthermore, we prove that despite the flexibility in the\nform of the constraints/objective function offered by QP and\nSOCP, the LP-S relaxation <i>strictly dominates</i> (i.e.,\nprovides a better approximation than) QP-RL and SOCP-MS.\nWe generalize these results by defining a large class of SOCP\n(and equivalent QP) relaxations which is dominated by the \nLP-S relaxation. Based on these results we propose some novel \nSOCP relaxations which define constraints using random variables that\nform cycles or cliques in the graphical model representation of the\nrandom field. Using some examples we show that the new SOCP\nrelaxations strictly dominate the previous approaches.\n</p>",
+    "authors": [
+        "M. Pawan Kumar",
+        "Vladimir Kolmogorov",
+        "Philip H.S. Torr"
+    ],
+    "id": "kumar09a",
+    "issue": 2,
+    "pages": [
+        71,
+        106
+    ],
+    "title": "An Analysis of Convex Relaxations for MAP Estimation of Discrete MRFs",
+    "volume": "10",
+    "year": "2009"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "A linear causal model with correlated errors, represented by a DAG\nwith bi-directed edges, can be tested by the set of conditional\nindependence relations implied by the model. A global Markov property\nspecifies, by the d-separation criterion, the set of all conditional\nindependence relations holding in any model associated with a graph. A\nlocal Markov property specifies a much smaller set of conditional\nindependence relations which will imply all other conditional\nindependence relations which hold under the global Markov\nproperty. For DAGs with bi-directed edges associated with arbitrary\nprobability distributions, a local Markov property is given in\nRichardson (2003) which may invoke an exponential number of\nconditional independencies. In this paper, we show that for a class of\nlinear structural equation models with correlated errors, there is a\nlocal Markov property which will invoke only a linear number of\nconditional independence relations. For general linear models, we\nprovide a local Markov property that often invokes far fewer\nconditional independencies than that in Richardson (2003). The\nresults have applications in testing linear structural equation models\nwith correlated errors.",
+    "authors": [
+        "Changsung Kang",
+        "Jin Tian"
+    ],
+    "id": "kang09a",
+    "issue": 1,
+    "pages": [
+        41,
+        70
+    ],
+    "title": "Markov Properties for Linear Causal Models with Correlated Errors",
+    "volume": "10",
+    "year": "2009"
+}

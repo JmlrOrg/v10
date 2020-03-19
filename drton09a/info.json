@@ -1,0 +1,17 @@
+{
+    "abstract": "In recursive linear models, the multivariate normal joint distribution\nof all variables exhibits a dependence structure induced by a\nrecursive (or acyclic) system of linear structural equations.  These\nlinear models have a long tradition and appear in seemingly unrelated\nregressions, structural equation modelling, and approaches to causal\ninference.  They are also related to Gaussian graphical models via a\nclassical representation known as a path diagram.  Despite the models'\nlong history, a number of problems remain open.  In this paper, we\naddress the problem of computing maximum likelihood estimates in the\nsubclass of 'bow-free' recursive linear models. The term 'bow-free'\nrefers to the condition that the errors for variables <i>i</i> and <i>j</i> be\nuncorrelated if variable <i>i</i> occurs in the structural equation for\nvariable <i>j</i>.  We introduce a new algorithm, termed Residual Iterative\nConditional Fitting (RICF), that can be implemented using only least\nsquares computations.  In contrast to existing algorithms, RICF has\nclear convergence properties and yields exact maximum likelihood\nestimates after the first iteration whenever the MLE is available in\nclosed form.",
+    "authors": [
+        "Mathias Drton",
+        "Michael Eichler",
+        "Thomas S. Richardson"
+    ],
+    "id": "drton09a",
+    "issue": 80,
+    "pages": [
+        2329,
+        2348
+    ],
+    "title": "Computing Maximum Likelihood Estimates in Recursive Linear Models with Correlated Errors",
+    "volume": "10",
+    "year": "2009"
+}

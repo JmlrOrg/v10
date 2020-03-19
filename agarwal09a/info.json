@@ -1,0 +1,16 @@
+{
+    "abstract": "The problem of ranking, in which the goal is to learn a real-valued\nranking function that induces a ranking or ordering over an instance\nspace, has recently gained much attention in machine learning.  We\nstudy generalization properties of ranking algorithms using the notion\nof algorithmic stability; in particular, we derive generalization\nbounds for ranking algorithms that have good stability properties. We\nshow that kernel-based ranking algorithms that perform regularization\nin a reproducing kernel Hilbert space have such stability properties,\nand therefore our bounds can be applied to these algorithms; this is\nin contrast with generalization bounds based on uniform convergence,\nwhich in many cases cannot be applied to these algorithms. Our results\ngeneralize earlier results that were derived in the special setting of\nbipartite ranking (Agarwal and Niyogi, 2005) to a more general setting of the\nranking problem that arises frequently in applications.",
+    "authors": [
+        "Shivani Agarwal",
+        "Partha Niyogi"
+    ],
+    "id": "agarwal09a",
+    "issue": 15,
+    "pages": [
+        441,
+        474
+    ],
+    "title": "Generalization Bounds for Ranking Algorithms via Algorithmic Stability",
+    "volume": "10",
+    "year": "2009"
+}

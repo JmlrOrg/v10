@@ -1,0 +1,18 @@
+{
+    "abstract": "Process discovery is the automated construction of structured\nprocess models from information system event logs. Such event logs\noften contain positive examples only. Without negative examples,\nit is a challenge to strike the right balance between recall and\nspecificity, and to deal with problems such as expressiveness,\nnoise, incomplete event logs, or the inclusion of prior knowledge.\nIn this paper, we present a configurable technique that deals with\nthese challenges by representing process discovery as a\nmulti-relational classification problem on event logs supplemented\nwith Artificially Generated Negative Events (AGNEs). This problem\nformulation allows using learning algorithms and evaluation\ntechniques that are well-know in the machine learning community.\nMoreover, it allows users to have a declarative control over the\ninductive bias and language bias.",
+    "authors": [
+        "Stijn Goedertier",
+        "David Martens",
+        "Jan Vanthienen",
+        "Bart Baesens"
+    ],
+    "id": "goedertier09a",
+    "issue": 43,
+    "pages": [
+        1305,
+        1340
+    ],
+    "title": "Robust Process Discovery with Artificial Negative Events",
+    "volume": "10",
+    "year": "2009"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nThe growth of information available to learning systems and the\nincreasing complexity of learning tasks determine the need for\ndevising algorithms that scale well with respect to all learning\nparameters. In the context of supervised sequential learning, the\nViterbi algorithm plays a fundamental role, by allowing the evaluation\nof the best (most probable) sequence of labels with a time complexity\nlinear in the number of time events, and quadratic in the number of\nlabels.\n</p>\n<p>\nIn this paper we propose CarpeDiem, a novel algorithm allowing the\nevaluation of the best possible sequence of labels with a\nsub-quadratic time complexity.\nWe provide theoretical grounding together with solid empirical results\nsupporting two chief facts. CarpeDiem always finds the optimal solution\nrequiring, in most cases, only a small fraction of the time taken by\nthe Viterbi algorithm; meantime, CarpeDiem is never asymptotically\nworse than the Viterbi algorithm, thus confirming it as a sound\nreplacement.\n</p>",
+    "authors": [
+        "Roberto Esposito",
+        "Daniele P. Radicioni"
+    ],
+    "id": "esposito09a",
+    "issue": 63,
+    "pages": [
+        1851,
+        1880
+    ],
+    "title": "CarpeDiem: Optimizing the Viterbi Algorithm and Applications to Supervised Sequential Learning",
+    "volume": "10",
+    "year": "2009"
+}

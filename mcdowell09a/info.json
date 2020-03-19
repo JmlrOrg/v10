@@ -1,0 +1,17 @@
+{
+    "abstract": "Many collective classification (CC) algorithms have been shown to\nincrease accuracy when instances are interrelated. However, CC algorithms\nmust be carefully applied because their use of estimated labels\ncan in some cases decrease accuracy.  In this article, we show that\nmanaging this label uncertainty through <i>cautious</i> algorithmic\nbehavior is essential to achieving maximal, robust performance.\nFirst, we describe <i>cautious inference</i> and explain how four well-known\nfamilies of CC algorithms can be parameterized to use varying degrees of such caution.  \nSecond, we introduce <i>cautious learning</i> and show how it can be used to improve the performance of\nalmost any CC algorithm, with or without cautious inference.  We then\nevaluate cautious inference \nand learning for the four collective inference families, \nwith three local classifiers and a range of\nboth synthetic and real-world data.  We find\nthat cautious learning and cautious inference typically outperform less\ncautious approaches. In addition, we identify \nthe data characteristics that predict more substantial performance\ndifferences.  Our results reveal that \n<i>the degree of caution used usually has a larger impact on performance than the choice of the underlying inference algorithm</i>.  \nTogether, these results identify the most appropriate CC\nalgorithms to use for particular task characteristics and explain multiple\nconflicting findings from prior CC research.",
+    "authors": [
+        "Luke K. McDowell",
+        "Kalyan Moy Gupta",
+        "David W. Aha"
+    ],
+    "id": "mcdowell09a",
+    "issue": 95,
+    "pages": [
+        2777,
+        2836
+    ],
+    "title": "Cautious Collective Classification",
+    "volume": "10",
+    "year": "2009"
+}

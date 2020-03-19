@@ -1,0 +1,15 @@
+{
+    "abstract": "We show how to follow the path of <i>cross validated</i>\nsolutions to families of regularized optimization problems, defined\nby a combination of a parameterized loss function and a\nregularization term. A primary example is kernel quantile\nregression, where the parameter of the loss function is the quantile\nbeing estimated. Even though the bi-level optimization problem we\nencounter for every quantile is non-convex, the manner in which the\noptimal cross-validated solution evolves with the parameter of the\nloss function allows tracking of this solution. We prove this\nproperty, construct the resulting algorithm, and demonstrate it on\nreal and artificial data. This algorithm allows us to\nefficiently solve the whole family of bi-level problems. We show how\nit can be extended to cover other modeling problems, like support\nvector regression, and alternative in-sample model selection\napproaches.",
+    "authors": [
+        "Saharon Rosset"
+    ],
+    "id": "rosset09a",
+    "issue": 85,
+    "pages": [
+        2473,
+        2505
+    ],
+    "title": "Bi-Level Path Following for Cross Validated Solution of Kernel Quantile Regression",
+    "volume": "10",
+    "year": "2009"
+}

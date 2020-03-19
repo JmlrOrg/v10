@@ -1,0 +1,17 @@
+{
+    "abstract": "Variable selection in high-dimensional space characterizes many\ncontemporary problems in scientific discovery and decision making.\nMany frequently-used techniques are based on independence screening;\nexamples include correlation ranking (Fan &#38; Lv, 2008) or feature selection\nusing a two-sample <i>t</i>-test in high-dimensional classification\n(Tibshirani et al., 2003). Within the context of the linear model, Fan &#38; Lv (2008)\nshowed that this simple correlation ranking possesses a sure\nindependence screening property under certain conditions and that its\nrevision, called iteratively sure independent screening (ISIS), is\nneeded when the features are marginally unrelated but jointly related\nto the response variable. In this paper, we extend ISIS, without\nexplicit definition of residuals, to a general pseudo-likelihood\nframework, which includes generalized linear models as a special\ncase. Even in the least-squares setting, the new method improves ISIS\nby allowing feature deletion in the iterative process.  Our technique\nallows us to select important features in high-dimensional\nclassification where the popularly used two-sample <i>t</i>-method fails. A\nnew technique is introduced to reduce the false selection rate in the\nfeature screening stage.  Several simulated and two real data examples\nare presented to illustrate the methodology.",
+    "authors": [
+        "Jianqing Fan",
+        "Richard Samworth",
+        "Yichao Wu"
+    ],
+    "id": "fan09a",
+    "issue": 69,
+    "pages": [
+        2013,
+        2038
+    ],
+    "title": "Ultrahigh Dimensional Feature Selection: Beyond The Linear Model",
+    "volume": "10",
+    "year": "2009"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "Support vector machines are a powerful machine learning technology,\nbut the training process involves a dense quadratic optimization\nproblem and is computationally challenging. A parallel implementation\nof linear Support Vector Machine training has been developed, using a\ncombination of MPI and OpenMP. Using an interior point method for the\noptimization and a reformulation that avoids the dense Hessian matrix,\nthe structure of the augmented system matrix is exploited to partition\ndata and computations amongst parallel processors efficiently. The new\nimplementation has been applied to solve problems from the\nPASCAL Challenge on Large-scale Learning. \nWe show that our approach is competitive, and is able to\nsolve problems in the Challenge many times faster than other parallel\napproaches.  We also demonstrate that the hybrid version performs more\nefficiently than the version using pure MPI.",
+    "authors": [
+        "Kristian Woodsend",
+        "Jacek Gondzio"
+    ],
+    "id": "woodsend09a",
+    "issue": 66,
+    "pages": [
+        1937,
+        1953
+    ],
+    "title": "Hybrid MPI/OpenMP Parallel Linear Support Vector Machine Training",
+    "volume": "10",
+    "year": "2009"
+}

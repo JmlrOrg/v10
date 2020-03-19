@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\nThis paper studies the feature selection problem using\na greedy least squares regression algorithm.\nWe show that under a certain irrepresentable condition on the \ndesign matrix (but independent of the sparse target),\nthe greedy algorithm can select features consistently when the\nsample size approaches infinity. The condition is identical\nto  a corresponding condition for Lasso.\n</p>\n<p>\nMoreover, under a sparse eigenvalue condition,\nthe greedy algorithm can reliably identify \nfeatures as long as each nonzero coefficient is larger than a constant\ntimes the noise level.\nIn comparison, Lasso may require the coefficients to be larger than\n<i>O</i>(&#8730;<i>s</i>) times the noise level in the worst case, \nwhere <i>s</i> is the number of nonzero coefficients. \n</p>",
+    "authors": [
+        "Tong Zhang"
+    ],
+    "id": "zhang09a",
+    "issue": 18,
+    "pages": [
+        555,
+        568
+    ],
+    "title": "On the Consistency of Feature Selection using Greedy Least Squares Regression",
+    "volume": "10",
+    "year": "2009"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "In real world applications, graphical statistical models are not only\na tool for operations such as classification or prediction, but\nusually the network structures of the models themselves are also of\ngreat interest (e.g., in modeling brain connectivity).  The false\ndiscovery rate (FDR), the expected ratio of falsely claimed\nconnections to all those claimed, is often a reasonable error-rate\ncriterion in these applications.  However, current learning algorithms\nfor graphical models have not been adequately adapted to the concerns\nof the FDR.  The traditional practice of controlling the type I error\nrate and the type II error rate under a conventional level does not\nnecessarily keep the FDR low, especially in the case of sparse\nnetworks.  In this paper, we propose embedding an FDR-control\nprocedure into the PC algorithm to curb the FDR of the skeleton of the\nlearned graph.  We prove that the proposed method can control the FDR\nunder a user-specified level at the limit of large sample sizes.  In\nthe cases of moderate sample size (about several hundred), empirical\nexperiments show that the method is still able to control the FDR\nunder the user-specified level, and a heuristic modification of the\nmethod is able to control the FDR more accurately around the\nuser-specified level.  The proposed method is applicable to any models\nfor which statistical tests of conditional independence are available,\nsuch as discrete models and Gaussian models.",
+    "authors": [
+        "Junning Li",
+        "Z. Jane Wang"
+    ],
+    "id": "li09a",
+    "issue": 16,
+    "pages": [
+        475,
+        514
+    ],
+    "title": "Controlling the False Discovery Rate of the Association/Causality Structure Learned with the PC Algorithm",
+    "volume": "10",
+    "year": "2009"
+}

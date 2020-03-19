@@ -1,0 +1,16 @@
+{
+    "abstract": "We give an algorithm for the on-line learning of permutations.\nThe algorithm maintains its uncertainty about the\ntarget permutation as a doubly stochastic weight matrix, and makes predictions using\nan efficient method for decomposing the weight matrix into a convex combination\nof permutations.\nThe weight matrix is updated by multiplying the current\nmatrix entries by exponential factors, \nand an iterative procedure is needed to restore double stochasticity.\nEven though the result of this procedure\ndoes not have a closed form, a new analysis approach\nallows us to prove an optimal (up to small constant factors) bound on \nthe regret of our algorithm.\nThis regret bound is significantly better than that of either\nKalai and Vempala's \nmore efficient Follow the Perturbed Leader algorithm or\nthe computationally expensive method of explicitly representing each permutation as\nan expert.",
+    "authors": [
+        "David P. Helmbold",
+        "Manfred K. Warmuth"
+    ],
+    "id": "helmbold09a",
+    "issue": 57,
+    "pages": [
+        1705,
+        1736
+    ],
+    "title": "Learning Permutations with Exponential Weights",
+    "volume": "10",
+    "year": "2009"
+}

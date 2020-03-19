@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nWe consider the problem of classification using high dimensional\nfeatures' space. In a paper by Bickel and Levina (2004), it is\nrecommended to use naive-Bayes classifiers, that is, to treat the\nfeatures as if they are statistically independent.\n</p>\n<p>\nConsider now a sparse setup, where only a few of the features\nare informative for classification. Fan and Fan (2008),\nsuggested a variable selection and classification method, called FAIR.\nThe FAIR method improves the design of naive-Bayes classifiers in\nsparse setups. The improvement is due to\nreducing the noise in estimating the features' means. This reduction is since\nthat only the means of a few selected variables should be estimated.\n</p>\n<p>\nWe also consider the design of  naive Bayes classifiers. We show that a good alternative to\nvariable selection is estimation of the means\nthrough a certain non parametric  empirical Bayes procedure. In sparse\nsetups the empirical Bayes implicitly performs an efficient variable\nselection. It also adapts very well to non sparse setups, and has the advantage\nof making use of the information from many \"weakly informative\" variables, which\nvariable selection type of classification procedures give up on using.\n</p>\n<p>\nWe compare our method with FAIR and other classification methods in\nsimulation for sparse and non sparse setups, and\nin real data examples \ninvolving  classification of normal versus malignant tissues based on microarray data.\n</p>",
+    "authors": [
+        "Eitan Greenshtein",
+        "Junyong Park"
+    ],
+    "id": "greenshtein09a",
+    "issue": 56,
+    "pages": [
+        1687,
+        1704
+    ],
+    "title": "Application of Non Parametric Empirical Bayes Estimation to High Dimensional Classification",
+    "volume": "10",
+    "year": "2009"
+}

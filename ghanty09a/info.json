@@ -1,0 +1,17 @@
+{
+    "abstract": "In this paper we propose a new multilayer classifier architecture. The\nproposed hybrid architecture has two cascaded modules: feature\nextraction module and classification module. In the feature extraction\nmodule we use the multilayered perceptron (MLP) neural networks,\nalthough other tools such as radial basis function (RBF) networks can\nbe used. In the classification module we use support vector machines\n(SVMs)---here also other tool such as MLP or RBF can be used. The\nfeature extraction module has several sub-modules each of which is\nexpected to extract features capturing the discriminating\ncharacteristics of different areas of the input space. The\nclassification module classifies the data based on the extracted\nfeatures. The resultant architecture with MLP in feature extraction\nmodule and SVM in classification module is called NEUROSVM. The\nNEUROSVM is tested on twelve benchmark data sets and the performance\nof the NEUROSVM is found to be better than both MLP and SVM. We also\ncompare the performance of proposed architecture with that of two\nensemble methods: majority voting and averaging. Here also the\nNEUROSVM is found to perform better than these two ensemble\nmethods. Further we explore the use of MLP and RBF in the\nclassification module of the proposed architecture. The most\nattractive feature of NEUROSVM is that it practically eliminates the\nsevere dependency of SVM on the choice of kernel. This has been\nverified with respect to both linear and non-linear kernels. We have\nalso demonstrated that for the feature extraction module, the full\ntraining of MLPs is not needed.",
+    "authors": [
+        "Pradip Ghanty",
+        "Samrat Paul",
+        "Nikhil R. Pal"
+    ],
+    "id": "ghanty09a",
+    "issue": 20,
+    "pages": [
+        591,
+        622
+    ],
+    "title": "NEUROSVM: An Architecture to Reduce the Effect of the Choice of Kernel on the Performance of SVM",
+    "volume": "10",
+    "year": "2009"
+}

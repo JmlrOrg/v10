@@ -1,0 +1,17 @@
+{
+    "abstract": "We study the problem of learning near-optimal behavior in finite Markov Decision Processes (MDPs) with a polynomial number of samples.  These \"PAC-MDP\" algorithms include the well-known E<sup>3</sup> and R-MAX algorithms as well as the more recent Delayed Q-learning algorithm.  We summarize the current state-of-the-art by presenting bounds for the problem in a unified theoretical framework.  A more refined analysis for upper and lower bounds is presented to yield insight into the differences between the model-free Delayed Q-learning and the model-based R-MAX.",
+    "authors": [
+        "Alexander L. Strehl",
+        "Lihong Li",
+        "Michael L. Littman"
+    ],
+    "id": "strehl09a",
+    "issue": 83,
+    "pages": [
+        2413,
+        2444
+    ],
+    "title": "Reinforcement Learning in Finite MDPs: PAC Analysis",
+    "volume": "10",
+    "year": "2009"
+}

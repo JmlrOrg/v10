@@ -1,0 +1,16 @@
+{
+    "abstract": "We introduce novel online Bayesian methods for the identification of\na family of noisy recurrent neural networks (RNNs). We present\nBayesian active learning techniques for stimulus selection given\npast experiences. In particular, we consider the unknown parameters\nas stochastic variables and use A-optimality and D-optimality\nprinciples to choose optimal stimuli. We derive myopic cost\nfunctions in order to maximize the information gain concerning\nnetwork parameters at each time step. We also derive the A-optimal\nand D-optimal estimations of the additive noise that perturbs the\ndynamical system of the RNN. Here we investigate myopic as well as\nnon-myopic estimations, and study the problem of simultaneous\nestimation of both the system parameters and the noise. Employing\nconjugate priors our derivations remain approximation-free and give\nrise to simple update rules for the online learning of the\nparameters. The efficiency of our method is demonstrated for a\nnumber of selected cases, including the task of controlled\nindependent component analysis.",
+    "authors": [
+        "Barnab&#225;s P&#243;czos",
+        "Andr&#225;s Lo&#779;rincz"
+    ],
+    "id": "poczos09a",
+    "issue": 17,
+    "pages": [
+        515,
+        554
+    ],
+    "title": "Identification of Recurrent Neural Networks by Bayesian Interrogation Techniques",
+    "volume": "10",
+    "year": "2009"
+}

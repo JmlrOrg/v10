@@ -1,0 +1,18 @@
+{
+    "abstract": "Predictive models benefit from a compact, non-redundant subset of\nfeatures that improves interpretability and generalization.\nModern data sets are wide, dirty, mixed with both numerical and\ncategorical predictors, and may contain interactive effects\nthat require complex models. This is a challenge for filters,\nwrappers, and embedded feature selection methods. We\ndescribe details of an algorithm using tree-based ensembles to\ngenerate a compact subset of non-redundant features.\nParallel and serial ensembles of trees\nare combined into a mixed method that can uncover masking\nand detect features of secondary effect.\nSimulated and actual\nexamples illustrate the effectiveness of the approach.",
+    "authors": [
+        "Eugene Tuv",
+        "Alexander Borisov",
+        "George Runger",
+        "Kari Torkkola"
+    ],
+    "id": "tuv09a",
+    "issue": 44,
+    "pages": [
+        1341,
+        1366
+    ],
+    "title": "Feature Selection with Ensembles, Artificial Variables, and Redundancy Elimination",
+    "volume": "10",
+    "year": "2009"
+}

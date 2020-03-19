@@ -1,0 +1,17 @@
+{
+    "abstract": "Permutations are ubiquitous in many real-world problems, such as\nvoting, ranking, and data association.  Representing uncertainty\nover permutations is challenging, since there are <i>n</i>!\npossibilities, and typical compact and factorized probability\ndistribution representations, such as graphical models, cannot\ncapture the mutual exclusivity constraints associated with\npermutations. In this paper, we use the \"low-frequency\" terms of a\nFourier decomposition to represent distributions over permutations\ncompactly.  We present <i>Kronecker conditioning</i>, a novel  \napproach for maintaining and updating these\ndistributions directly in the Fourier domain, allowing \nfor polynomial time bandlimited approximations. Low order\nFourier-based approximations, however, may lead to functions that do\nnot correspond to valid distributions. To address this problem, we\npresent a quadratic program defined directly in the\nFourier domain for projecting the approximation onto a relaxation of\nthe polytope of legal marginal distributions. We demonstrate the \neffectiveness of our approach on a real camera-based multi-person \ntracking scenario.",
+    "authors": [
+        "Jonathan Huang",
+        "Carlos Guestrin",
+        "Leonidas Guibas"
+    ],
+    "id": "huang09a",
+    "issue": 36,
+    "pages": [
+        997,
+        1070
+    ],
+    "title": "Fourier Theoretic Probabilistic Inference over Permutations",
+    "volume": "10",
+    "year": "2009"
+}

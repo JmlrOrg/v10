@@ -1,0 +1,19 @@
+{
+    "abstract": "Incorporating prior knowledge of a particular task into the\narchitecture of a learning algorithm can greatly improve\ngeneralization performance. We study here a case where we know that\nthe function to be learned is non-decreasing in its two arguments and\nconvex in one of them. For this purpose we propose a class of\nfunctions similar to multi-layer neural networks but (1) that has\nthose properties, (2) is a universal approximator of\nLipschitz functions with these and other\nproperties. We apply this new class of functions to the task of\nmodelling the price of call options. Experiments show improvements on\nregressing the price of call options using the new types of function\nclasses that incorporate the <i>a priori</i> constraints.",
+    "authors": [
+        "Charles Dugas",
+        "Yoshua Bengio",
+        "Fran&#231;ois B&#233;lisle",
+        "Claude Nadeau",
+        "Ren&#233; Garcia"
+    ],
+    "id": "dugas09a",
+    "issue": 41,
+    "pages": [
+        1239,
+        1262
+    ],
+    "title": "Incorporating Functional Knowledge in Neural Networks",
+    "volume": "10",
+    "year": "2009"
+}

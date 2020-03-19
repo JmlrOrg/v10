@@ -1,0 +1,16 @@
+{
+    "abstract": "Learning algorithms are based on samples which are often drawn\nindependently from an identical distribution (i.i.d.). In this\npaper we consider a different setting with samples drawn according\nto a non-identical sequence of probability distributions. Each\ntime a sample is drawn from a different distribution. In this\nsetting we investigate a fully online learning algorithm\nassociated with a general convex loss function and a reproducing\nkernel Hilbert space (RKHS). Error analysis is conducted under the\nassumption that the sequence of marginal distributions converges\npolynomially in the dual of a H&ouml;lder space. For regression with\nleast square or insensitive loss, learning rates are given in both\nthe RKHS norm and the L<sup>2</sup> norm. For classification with hinge\nloss and support vector machine <i>q</i>-norm loss, rates are\nexplicitly stated with respect to the excess misclassification\nerror.",
+    "authors": [
+        "Ting Hu",
+        "Ding-Xuan Zhou"
+    ],
+    "id": "hu09a",
+    "issue": 97,
+    "pages": [
+        2873,
+        2898
+    ],
+    "title": "Online Learning with Samples Drawn from Non-identical Distributions",
+    "volume": "10",
+    "year": "2009"
+}

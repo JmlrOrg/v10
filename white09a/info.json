@@ -1,0 +1,16 @@
+{
+    "abstract": "Judea Pearl's Causal Model is a rich framework that provides deep insight\ninto the nature of causal relations. As yet, however, the Pearl Causal Model\n(PCM) has had a lesser impact on economics or econometrics than on other\ndisciplines. This may be due in part to the fact that the PCM is not as well\nsuited to analyzing structures that exhibit features of central interest to\neconomists and econometricians: optimization, equilibrium, and learning. We\noffer the settable systems framework as an extension of the PCM that permits\ncausal discourse in systems embodying optimization, equilibrium, and\nlearning. Because these are common features of physical, natural, or social\nsystems, our framework may prove generally useful for machine learning.\nImportant features distinguishing the settable system framework from the PCM\nare its countable dimensionality and the use of partitioning and\npartition-specific response functions to accommodate the behavior of\noptimizing and interacting agents and to eliminate the requirement of a\nunique fixed point for the system. Refinements of the PCM include the\nsettable systems treatment of attributes, the causal role of exogenous\nvariables, and the dual role of variables as causes and responses. A series\nof closely related machine learning examples and examples from game theory\nand machine learning with feedback demonstrates some limitations of the PCM\nand motivates the distinguishing features of settable systems.",
+    "authors": [
+        "Halbert White",
+        "Karim Chalak"
+    ],
+    "id": "white09a",
+    "issue": 60,
+    "pages": [
+        1759,
+        1799
+    ],
+    "title": "Settable Systems: An Extension of Pearl's Causal Model with Optimization, Equilibrium, and Learning",
+    "volume": "10",
+    "year": "2009"
+}

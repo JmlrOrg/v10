@@ -1,0 +1,19 @@
+{
+    "abstract": "A Boolean function <i>f</i> is <i>correlation immune</i> if each input\nvariable is independent of the output, under the uniform distribution\non inputs.  For example, the parity function is correlation immune.\nWe consider the problem of identifying relevant variables of a\ncorrelation immune function, in the presence of irrelevant variables.\nWe address this problem in two different contexts.  First, we analyze\n<i>Skewing</i>, a heuristic method that was developed to improve the\nability of greedy decision tree algorithms to identify relevant\nvariables of correlation immune Boolean functions, given examples\ndrawn from the uniform distribution (Page and Ray, 2003).  We present\ntheoretical results revealing both the capabilities and limitations of\nskewing.  Second, we explore the problem of identifying relevant\nvariables in the <i>Product Distribution Choice</i> (PDC) learning\nmodel, a model in which the learner can choose product distributions\nand obtain examples from them.  We prove a lemma establishing a\nproperty of Boolean functions that may be of independent interest.\nUsing this lemma, we give two new algorithms for finding relevant\nvariables of correlation immune functions in the PDC model.",
+    "authors": [
+        "Lisa Hellerstein",
+        "Bernard Rosell",
+        "Eric Bach",
+        "Soumya Ray",
+        "David Page"
+    ],
+    "id": "hellerstein09a",
+    "issue": 82,
+    "pages": [
+        2375,
+        2411
+    ],
+    "title": "Exploiting Product Distributions to Identify Relevant Variables of Correlation Immune Functions",
+    "volume": "10",
+    "year": "2009"
+}

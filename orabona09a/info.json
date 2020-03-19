@@ -1,0 +1,17 @@
+{
+    "abstract": "A common problem of kernel-based online algorithms, such as the kernel-based Perceptron algorithm, is the amount of memory required to store the online hypothesis, which may increase without bound as the algorithm progresses. Furthermore, the computational load of such algorithms grows linearly with the amount of memory used to store the hypothesis. To attack these problems, most previous work has focused on discarding some of the instances, in order to keep the memory bounded. In this paper we present a new algorithm, in which the instances are not discarded, but are instead projected onto the space spanned by the previous online hypothesis. We call this algorithm  Projectron. While the memory size of the Projectron solution cannot be predicted before training, we prove that its solution is guaranteed to be bounded.\nWe derive a relative mistake bound for the proposed algorithm, and deduce from it a slightly different algorithm which outperforms the Perceptron. We call this second algorithm Projectron++. We show that this algorithm can be extended to handle the multiclass and the structured output settings, resulting, as far as we know, in the first online bounded algorithm that can learn complex classification tasks. The method of bounding the hypothesis representation can be applied to any conservative online algorithm and to other online algorithms, as it is demonstrated for ALMA<sub>2</sub>. Experimental results on various data sets show the empirical advantage of our technique compared to various bounded online algorithms, both in terms of memory and accuracy.",
+    "authors": [
+        "Francesco Orabona",
+        "Joseph Keshet",
+        "Barbara Caputo"
+    ],
+    "id": "orabona09a",
+    "issue": 91,
+    "pages": [
+        2643,
+        2666
+    ],
+    "title": "Bounded Kernel-Based Online Learning",
+    "volume": "10",
+    "year": "2009"
+}

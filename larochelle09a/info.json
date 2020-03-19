@@ -1,0 +1,18 @@
+{
+    "abstract": "Deep multi-layer neural networks have many levels of non-linearities\nallowing them to compactly represent highly non-linear and\nhighly-varying functions. However, until recently it was not clear how\nto train such deep networks, since gradient-based optimization\nstarting from random initialization often appears to get stuck in poor\nsolutions.  Hinton et al. recently proposed a greedy layer-wise\nunsupervised learning procedure relying on the training algorithm of\nrestricted Boltzmann machines (RBM) to initialize the parameters of a\ndeep belief network (DBN), a generative model with many layers of\nhidden causal variables. This was followed by the proposal of another\ngreedy layer-wise procedure, relying on the usage of autoassociator\nnetworks. In the context of the above optimization problem, we study\nthese algorithms empirically to better understand their success.  Our\nexperiments confirm the hypothesis that the greedy layer-wise\nunsupervised training strategy helps the optimization by initializing\nweights in a region near a good local minimum, but also implicitly\nacts as a sort of regularization that brings better generalization and\nencourages internal distributed representations that are high-level\nabstractions of the input.  We also present a series of experiments\naimed at evaluating the link between the performance of deep neural\nnetworks and practical aspects of their topology, for example,\ndemonstrating cases where the addition of more depth helps.  Finally,\nwe empirically explore simple variants of these training algorithms,\nsuch as the use of different RBM input unit distributions, a simple\nway of combining gradient estimators to improve performance, as well\nas on-line versions of those algorithms.",
+    "authors": [
+        "Hugo Larochelle",
+        "Yoshua Bengio",
+        "J&#233;r&#244;me Louradour",
+        "Pascal Lamblin"
+    ],
+    "id": "larochelle09a",
+    "issue": 0,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Exploring Strategies for Training Deep Neural Networks",
+    "volume": "10",
+    "year": "2009"
+}

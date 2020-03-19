@@ -1,0 +1,17 @@
+{
+    "abstract": "Nearest neighbor graphs are widely used in data mining and machine\nlearning.  A brute-force method to compute the exact <i>k</i>NN graph\ntakes &#920;(<i>dn</i><sup>2</sup>) time for <i>n</i> data points in \nthe <i>d</i> dimensional\nEuclidean  space.  We propose two divide and conquer methods for\ncomputing an approximate <i>k</i>NN graph in &#920;(<i>dn<sup>t</sup></i>) time for high\ndimensional data (large  <i>d</i>).  The exponent <i>t</i> &#8712; (1,2) is an\nincreasing function of an internal parameter &#945; which governs the\nsize of the common region in the divide step. Experiments show that a\nhigh quality graph can usually be obtained with small overlaps, that is,\nfor small values of <i>t</i>.\nA few of the practical details of the algorithms are as\nfollows. First, the divide step uses an inexpensive Lanczos procedure\nto perform recursive spectral bisection. After each conquer step, an\nadditional refinement step is performed to improve the accuracy of the\ngraph.  Finally, a hash table is used to avoid repeating distance\ncalculations during the divide and conquer process. The combination of\nthese techniques is shown to yield quite effective algorithms for\nbuilding <i>k</i>NN graphs.",
+    "authors": [
+        "Jie Chen",
+        "Haw-ren Fang",
+        "Yousef Saad"
+    ],
+    "id": "chen09b",
+    "issue": 68,
+    "pages": [
+        1989,
+        2012
+    ],
+    "title": "Fast Approximate kNN Graph Construction for High Dimensional Data via Recursive Lanczos Bisection",
+    "volume": "10",
+    "year": "2009"
+}

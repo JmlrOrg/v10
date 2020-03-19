@@ -1,0 +1,19 @@
+{
+    "abstract": "This paper reviews and extends the field of similarity-based classification,\npresenting new analyses, algorithms, data sets, and a comprehensive set of\nexperimental results for a rich collection of classification problems.\nSpecifically, the generalizability of using similarities as features is\nanalyzed, design goals and methods for weighting nearest-neighbors for\nsimilarity-based learning are proposed, and different methods for consistently\nconverting similarities into kernels are compared. Experiments on eight real\ndata sets compare eight approaches and their variants to similarity-based\nlearning.",
+    "authors": [
+        "Yihua Chen",
+        "Eric K. Garcia",
+        "Maya R. Gupta",
+        "Ali Rahimi",
+        "Luca Cazzanti"
+    ],
+    "id": "chen09a",
+    "issue": 26,
+    "pages": [
+        747,
+        776
+    ],
+    "title": "Similarity-based Classification: Concepts and Algorithms",
+    "volume": "10",
+    "year": "2009"
+}

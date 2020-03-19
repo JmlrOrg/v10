@@ -1,0 +1,17 @@
+{
+    "abstract": "Java-ML is a collection of machine learning and data mining\nalgorithms, which aims to be a readily usable and easily extensible\nAPI for both software developers and research scientists. The\ninterfaces for each type of algorithm are kept simple and algorithms\nstrictly follow their respective interface. Comparing different\nclassifiers or clustering algorithms is therefore straightforward, and\nimplementing new algorithms is also easy.  The implementations of the\nalgorithms are clearly written, properly documented and can thus be\nused as a reference. The library is written in Java and is available\nfrom <a href=\"http://java-ml.sourceforge.net/\">http://java-ml.sourceforge.net/</a> \nunder the GNU GPL license.",
+    "authors": [
+        "Thomas Abeel",
+        "Yves Van de Peer",
+        "Yvan Saeys"
+    ],
+    "id": "abeel09a",
+    "issue": 33,
+    "pages": [
+        931,
+        934
+    ],
+    "title": "Java-ML: A Machine Learning Library",
+    "volume": "10",
+    "year": "2009"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "<i>Recommender systems</i> are now popular both commercially\nand in the research community, where many algorithms have been\nsuggested for providing recommendations. These algorithms typically\nperform differently in various domains and tasks. Therefore, it is\nimportant from the research perspective, as well as from a practical\nview, to be able to decide on an algorithm that matches the domain\nand the task of interest. The standard way to make such decisions is\nby comparing a number of algorithms offline using some evaluation\nmetric. Indeed, many evaluation metrics have been suggested for\ncomparing recommendation algorithms. The decision on the proper\nevaluation metric is often critical, as each metric may favor a\ndifferent algorithm. In this paper we review the proper\nconstruction of offline experiments for deciding on the most\nappropriate algorithm. We discuss three important tasks of\nrecommender systems, and classify a set of appropriate well known\nevaluation metrics for each task. We demonstrate how using an\nimproper evaluation metric can lead to the selection of an improper\nalgorithm for the task of interest. We also discuss other important\nconsiderations when designing offline experiments.",
+    "authors": [
+        "Asela Gunawardana",
+        "Guy Shani"
+    ],
+    "id": "gunawardana09a",
+    "issue": 99,
+    "pages": [
+        2935,
+        2962
+    ],
+    "title": "A Survey of Accuracy Evaluation Metrics of Recommendation Tasks",
+    "volume": "10",
+    "year": "2009"
+}

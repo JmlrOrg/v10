@@ -1,0 +1,16 @@
+{
+    "abstract": "We show that all consistent learning methods---that is, that\nasymptotically achieve the lowest possible expected loss for any\ndistribution on (<i>X</i>,<i>Y</i>)---are necessarily localizable, by which we\nmean that they do not significantly change their response at a\nparticular point when we show them only the part of the training set\nthat is close to that point. This is true in particular for methods\nthat appear to be defined in a non-local manner, such as support\nvector machines in classification and least-squares estimators in\nregression. Aside from showing that consistency implies a specific\nform of localizability, we also show that consistency is logically\nequivalent to the combination of two properties: (1) a form of\nlocalizability, and (2) that the method's global mean (over the entire\n<i>X</i> distribution) correctly estimates the true mean. Consistency can\ntherefore be seen as comprised of two aspects, one local and one\nglobal.",
+    "authors": [
+        "Alon Zakai",
+        "Ya'acov Ritov"
+    ],
+    "id": "zakai09a",
+    "issue": 29,
+    "pages": [
+        827,
+        856
+    ],
+    "title": "Consistency and Localizability",
+    "volume": "10",
+    "year": "2009"
+}

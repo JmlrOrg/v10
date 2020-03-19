@@ -1,0 +1,18 @@
+{
+    "abstract": "We present a sound and complete graphical criterion for reading\ndependencies from the minimal undirected independence map <i>G</i> of a\ngraphoid <i>M</i> that satisfies weak transitivity. Here, complete means\nthat it is able to read all the dependencies in <i>M</i> that can be\nderived by applying the graphoid properties and weak transitivity to\nthe dependencies used in the construction of <i>G</i> and the\nindependencies obtained from <i>G</i> by vertex separation. We argue that\nassuming weak transitivity is not too restrictive. As an intermediate\nstep in the derivation of the graphical criterion, we prove that for\nany undirected graph <i>G</i> there exists a strictly positive discrete\nprobability distribution with the prescribed sample spaces that is\nfaithful to <i>G</i>. We also report an algorithm that implements the\ngraphical criterion and whose running time is considered to be at most\n<i>O</i>(<i>n</i><sup>2</sup>(<i>e</i>+<i>n</i>)) for <i>n</i> nodes \nand <i>e</i> edges. Finally, we illustrate how\nthe graphical criterion can be used within bioinformatics to identify\nbiologically meaningful gene dependencies.",
+    "authors": [
+        "Jose M. Pe&#241;a",
+        "Roland Nilsson",
+        "Johan Bj&#246;rkegren",
+        "Jesper Tegn&#233;r"
+    ],
+    "id": "pena09a",
+    "issue": 37,
+    "pages": [
+        1071,
+        1094
+    ],
+    "title": "An Algorithm for Reading Dependencies from the Minimal Undirected Independence Map of a Graphoid that Satisfies Weak Transitivity",
+    "volume": "10",
+    "year": "2009"
+}

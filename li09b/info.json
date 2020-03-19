@@ -1,0 +1,17 @@
+{
+    "abstract": "We consider the problem of multi-task reinforcement learning (MTRL)\nin multiple partially observable stochastic environments. We\nintroduce the regionalized policy representation (RPR) to\ncharacterize the agent's behavior in each environment. The RPR is a\nparametric model of the conditional distribution over current\nactions given the history of past actions and observations; the\nagent's choice of actions is directly based on this conditional\ndistribution, without an intervening model to characterize the\nenvironment itself. We propose off-policy batch algorithms to learn\nthe parameters of the RPRs, using episodic data collected when\nfollowing a behavior policy, and show their linkage to policy\niteration. We employ the Dirichlet process as a nonparametric prior\nover the RPRs across multiple environments. The intrinsic clustering\nproperty of the Dirichlet process imposes sharing of episodes among\nsimilar environments, which effectively reduces the number of\nepisodes required for learning a good policy in each environment,\nwhen data sharing is appropriate. The number of distinct RPRs and\nthe associated clusters (the sharing patterns) are automatically\ndiscovered by exploiting the episodic data as well as the\nnonparametric nature of the Dirichlet process. We demonstrate the\neffectiveness of the proposed RPR as well as the RPR-based MTRL\nframework on various problems, including grid-world navigation and\nmulti-aspect target classification. The experimental results show\nthat the RPR is a competitive reinforcement learning algorithm in\npartially observable domains, and the MTRL consistently achieves\nbetter performance than single task reinforcement learning.",
+    "authors": [
+        "Hui Li",
+        "Xuejun Liao",
+        "Lawrence Carin"
+    ],
+    "id": "li09b",
+    "issue": 39,
+    "pages": [
+        1131,
+        1186
+    ],
+    "title": "Multi-task Reinforcement Learning in Partially Observable Stochastic Environments",
+    "volume": "10",
+    "year": "2009"
+}

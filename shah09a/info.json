@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nIn this paper, we introduce PEBL, a Python library and\napplication for learning Bayesian network structure from data and prior knowledge that\nprovides features unmatched by alternative software packages: the ability to use\ninterventional data, flexible specification of structural priors, modeling with\nhidden variables and exploitation of parallel processing.\n</p>\n<p>\nPEBL is released under the MIT open-source license, can\n be installed from the Python Package Index and is available at\n <a href=\"http://pebl-project.googlecode.com\">http://pebl-project.googlecode.com</a>.\n</p>",
+    "authors": [
+        "Abhik Shah",
+        "Peter Woolf"
+    ],
+    "id": "shah09a",
+    "issue": 5,
+    "pages": [
+        159,
+        162
+    ],
+    "title": "Python Environment for Bayesian Learning: Inferring the Structure of Bayesian Networks from Knowledge and Data",
+    "volume": "10",
+    "year": "2009"
+}

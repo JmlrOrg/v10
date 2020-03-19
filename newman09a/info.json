@@ -1,0 +1,18 @@
+{
+    "abstract": "We describe distributed algorithms for two widely-used topic models,\nnamely the Latent Dirichlet Allocation (LDA) model, and the\nHierarchical Dirichet Process (HDP) model.  In our distributed\nalgorithms the data is partitioned across separate processors and\ninference is done in a parallel, distributed fashion.  We propose two\ndistributed algorithms for LDA.  The first algorithm is a\nstraightforward mapping of LDA to a distributed processor setting.  In\nthis algorithm\nprocessors concurrently perform Gibbs sampling over local data\nfollowed by a global update of topic counts.  The algorithm is\nsimple to implement and can be viewed as an approximation to\nGibbs-sampled LDA.  The second version is a model that uses a\nhierarchical Bayesian extension of LDA to directly account for\ndistributed data.  This model has a theoretical guarantee of\nconvergence but is more complex to implement than the first algorithm.\nOur distributed algorithm for HDP takes the straightforward mapping\napproach, and merges newly-created topics either by matching or\nby topic-id.  Using five real-world text corpora we show that\ndistributed learning works well in practice.  For both LDA and HDP, we\nshow that the converged test-data log probability for distributed learning is\nindistinguishable from that obtained with single-processor learning.\nOur extensive experimental results include learning topic models for\ntwo multi-million document collections using a 1024-processor parallel\ncomputer.",
+    "authors": [
+        "David Newman",
+        "Arthur Asuncion",
+        "Padhraic Smyth",
+        "Max Welling"
+    ],
+    "id": "newman09a",
+    "issue": 61,
+    "pages": [
+        1801,
+        1828
+    ],
+    "title": "Distributed Algorithms for Topic Models",
+    "volume": "10",
+    "year": "2009"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "We propose the recursive autonomy identification (RAI) algorithm for\nconstraint-based (CB) Bayesian network structure learning. The RAI\nalgorithm learns the structure by sequential application of\nconditional independence (CI) tests, edge direction and structure\ndecomposition into autonomous sub-structures. The sequence of\noperations is performed recursively for each autonomous sub-structure\nwhile simultaneously increasing the order of the CI test. While other\nCB algorithms d-separate structures and then direct the resulted\nundirected graph, the RAI algorithm combines the two processes from\nthe outset and along the procedure. By this means and due to structure\ndecomposition, learning a structure using RAI requires a smaller\nnumber of CI tests of high orders. This reduces the complexity and\nrun-time of the algorithm and increases the accuracy by diminishing\nthe curse-of-dimensionality. When the RAI algorithm learned structures\nfrom databases representing synthetic problems, known networks and\nnatural problems, it demonstrated superiority with respect to\ncomputational complexity, run-time, structural correctness and\nclassification accuracy over the PC, Three Phase Dependency Analysis,\nOptimal Reinsertion, greedy search, Greedy Equivalence Search, Sparse\nCandidate, and Max-Min Hill-Climbing algorithms.",
+    "authors": [
+        "Raanan Yehezkel",
+        "Boaz Lerner"
+    ],
+    "id": "yehezkel09a",
+    "issue": 52,
+    "pages": [
+        1527,
+        1570
+    ],
+    "title": "Bayesian Network Structure Learning by Recursive Autonomy Identification",
+    "volume": "10",
+    "year": "2009"
+}

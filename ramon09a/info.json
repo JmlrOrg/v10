@@ -1,0 +1,16 @@
+{
+    "abstract": "Algorithms that list graphs such that no two listed graphs are\nisomorphic, are important building blocks of systems for mining and\nlearning in graphs. Algorithms are already known that solve this\nproblem efficiently for many classes of graphs of restricted topology,\nsuch as trees.  In this article we introduce the concept of a dense\naugmentation schema, and introduce an algorithm that can be used to\nenumerate any class of graphs with polynomial delay, as long as the\nclass of graphs can be described using a monotonic predicate operating\non a dense augmentation schema.  In practice this means that this is\nthe first enumeration algorithm that can be applied theoretically\nefficiently in any frequent subgraph mining algorithm, and that this\nalgorithm generalizes to situations beyond the standard frequent\nsubgraph mining setting.",
+    "authors": [
+        "Jan Ramon",
+        "Siegfried Nijssen"
+    ],
+    "id": "ramon09a",
+    "issue": 32,
+    "pages": [
+        907,
+        929
+    ],
+    "title": "Polynomial-Delay Enumeration of Monotonic Graph Classes",
+    "volume": "10",
+    "year": "2009"
+}

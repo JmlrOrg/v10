@@ -1,0 +1,15 @@
+{
+    "abstract": "The statistical learning theory of risk minimization depends heavily on\nprobability bounds for uniform deviations of the empirical risks.\nClassical probability bounds using Hoeffding's inequality cannot\naccommodate more general situations with unbounded loss and\ndependent data. The current paper introduces an inequality that\nextends Hoeffding's inequality to handle these more general situations.\nWe will apply this inequality to provide probability bounds for\nuniform deviations in a very general framework, which\ncan involve discrete decision rules, unbounded loss, and a dependence \nstructure that can be more general than either martingale or strong mixing. \nWe will consider two examples with high dimensional predictors: \nautoregression (AR) with <i>l</i><sub>1</sub>-loss,\n and ARX model  with variable selection for sign classification,\n which uses both lagged responses and exogenous predictors.",
+    "authors": [
+        "Wenxin Jiang"
+    ],
+    "id": "jiang09a",
+    "issue": 35,
+    "pages": [
+        977,
+        996
+    ],
+    "title": "On Uniform Deviations of General Empirical Risks with Unboundedness, Dependence, and High Dimensionality",
+    "volume": "10",
+    "year": "2009"
+}

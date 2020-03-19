@@ -1,0 +1,19 @@
+{
+    "abstract": "To quickly achieve good performance, reinforcement-learning algorithms\nfor acting in large continuous-valued domains must use a\nrepresentation that is both sufficiently powerful to capture important\ndomain characteristics, and yet simultaneously allows generalization,\nor sharing, among experiences. Our algorithm balances this tradeoff by\nusing a stochastic, switching, parametric dynamics representation. We\nargue that this model characterizes a number of significant,\nreal-world domains, such as robot navigati on across varying\nterrain. We prove that this representational assumption allows our\nalgorithm to be probably approximately correct with a sample\ncomplexity that scales polynomially with all problem-specific\nquantities including the state-space dimension.  We also explicitly\nincorporate the error introduced by approximate planning in our sample\ncomplexity bounds, in contrast to prior Probably Approximately Correct\n(PAC) Markov Decision Processes (MDP) approaches, which typically\nassume the estimated MDP can be solved exactly. Our experimental\nresults on constructing plans for driving to work using real car\ntrajectory data, as well as a small robot experiment on navigating\nvarying terrain, demonstrate that our dynamics representation enables\nus to capture real-world dynamics in a sufficient manner to produce\ngood performance.",
+    "authors": [
+        "Emma Brunskill",
+        "Bethany R. Leffler",
+        "Lihong Li",
+        "Michael L. Littman",
+        "Nicholas Roy"
+    ],
+    "id": "brunskill09a",
+    "issue": 67,
+    "pages": [
+        1955,
+        1988
+    ],
+    "title": "Provably Efficient Learning with Typed Parametric Models",
+    "volume": "10",
+    "year": "2009"
+}

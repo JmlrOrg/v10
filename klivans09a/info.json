@@ -1,0 +1,17 @@
+{
+    "abstract": "We give new algorithms for learning halfspaces in the challenging <i>\nmalicious noise</i> model, where an adversary may corrupt both the labels\nand the underlying distribution of examples. Our algorithms can\ntolerate malicious noise rates exponentially larger than previous work\nin terms of the dependence on the dimension <i>n</i>, and succeed for the\nfairly broad class of all isotropic log-concave distributions.\n\n\nWe give poly(<i>n</i>, 1/&epsilon;)-time algorithms for solving the following\nproblems to accuracy &epsilon;:\n\n<ul>\n\n<li> Learning origin-centered halfspaces in <b>R</b><sup><i>n</i></sup> with respect to the uniform\ndistribution on the\nunit ball with malicious noise rate &eta; = &Omega;(&epsilon;<sup>2</sup> / log(<i>n</i>/&epsilon;)). (The\nbest previous result was &Omega;(&epsilon; / (<i>n</i> log(<i>n</i>/&epsilon;))<sup>1/4</sup>).) </li>\n\n<li> Learning origin-centered halfspaces with respect to any\nisotropic log-concave distribution on <b>R</b><sup><i>n</i></sup> with malicious noise\nrate &eta; = &Omega;(&epsilon;<sup>3</sup> / log<sup>2</sup>(<i>n</i>/&epsilon;)).  This is the first\nefficient algorithm for learning under isotropic log-concave\ndistributions in the presence of malicious noise. </li>\n\n</ul>\n\nWe also give a poly(<i>n</i>,1/&epsilon;)-time algorithm for learning\norigin-centered halfspaces under any isotropic log-concave\ndistribution on <b>R</b><sup><i>n</i></sup> in the presence of <i>adversarial label noise</i>\nat rate &eta; = &Omega;(&epsilon;<sup>3</sup> / log(1/&epsilon;)).  In the adversarial label\nnoise setting (or agnostic model), labels can be noisy, but not\nexample points themselves. Previous results could\nhandle &eta; = &Omega;(&epsilon;) but had running time exponential in an\nunspecified function of 1/&epsilon;.\n<br>\n\nOur analysis crucially exploits both concentration and\nanti-concentration properties of isotropic log-concave\ndistributions.  Our algorithms combine an iterative outlier removal\nprocedure using Principal Component Analysis together with\n\"smooth\" boosting.",
+    "authors": [
+        "Adam R. Klivans",
+        "Philip M. Long",
+        "Rocco A. Servedio"
+    ],
+    "id": "klivans09a",
+    "issue": 93,
+    "pages": [
+        2715,
+        2740
+    ],
+    "title": "Learning Halfspaces with Malicious Noise",
+    "volume": "10",
+    "year": "2009"
+}

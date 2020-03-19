@@ -1,0 +1,16 @@
+{
+    "abstract": "The accuracy of <i>k</i>-nearest neighbor (kNN) classification depends\nsignificantly on the metric used to compute distances between\ndifferent examples.  In this paper, we show how to learn a Mahalanobis\ndistance metric for kNN classification from labeled examples.  The\nMahalanobis metric can equivalently be viewed as a global linear\ntransformation of the input space that precedes kNN classification\nusing Euclidean distances.  In our approach, the metric is trained\nwith the goal that the <i>k</i>-nearest neighbors always belong to the same\nclass while examples from different classes are separated by a large\nmargin.  As in support vector machines (SVMs), the margin criterion\nleads to a convex optimization based on the hinge loss.  Unlike\nlearning in SVMs, however, our approach requires no modification or\nextension for problems in multiway (as opposed to binary)\nclassification.  In our framework, the Mahalanobis distance metric is\nobtained as the solution to a semidefinite program.  On several data\nsets of varying size and difficulty, we find that metrics trained in\nthis way lead to significant improvements in kNN classification.\nSometimes these results can be further improved by clustering the\ntraining examples and learning an individual metric within each\ncluster. We show how to learn and combine these local metrics in a\nglobally integrated manner.",
+    "authors": [
+        "Kilian Q. Weinberger",
+        "Lawrence K. Saul"
+    ],
+    "id": "weinberger09a",
+    "issue": 8,
+    "pages": [
+        207,
+        244
+    ],
+    "title": "Distance Metric Learning for Large Margin Nearest Neighbor Classification",
+    "volume": "10",
+    "year": "2009"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "Clustering is often formulated as a discrete optimization problem. The\nobjective is to find, among all partitions of the data set, the best\none according to some quality measure.  However, in the statistical\nsetting where we assume that the finite data set has been sampled from\nsome underlying space, the goal is not to find the best partition of\nthe given sample, but to approximate the true partition of the\nunderlying space. We argue that the discrete optimization approach\nusually does not achieve this goal, and instead can lead to\ninconsistency. We construct examples which provably have this\nbehavior.  As in the case of supervised learning, the cure is to\nrestrict the size of the function classes under consideration. For\nappropriate \"small\" function classes we can prove very general\nconsistency theorems for clustering optimization schemes.  As one\nparticular algorithm for clustering with a restricted function space\nwe introduce \"nearest neighbor clustering\". Similar to the k-nearest\nneighbor classifier in supervised learning, this algorithm can be seen\nas a general baseline algorithm to minimize arbitrary clustering\nobjective functions. We prove that it is statistically consistent for\nall commonly used clustering objective functions.",
+    "authors": [
+        "S&#233;bastien Bubeck",
+        "Ulrike von Luxburg"
+    ],
+    "id": "bubeck09a",
+    "issue": 22,
+    "pages": [
+        657,
+        698
+    ],
+    "title": "Nearest Neighbor Clustering: A Baseline Method for Consistent Clustering with Arbitrary Objective Functions",
+    "volume": "10",
+    "year": "2009"
+}

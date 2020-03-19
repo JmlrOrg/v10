@@ -1,0 +1,17 @@
+{
+    "abstract": "In this paper, we present an automated approach to discover patterns\nthat can distinguish between sequences belonging to different labeled\ngroups. Our method searches for approximately conserved motifs that\noccur with varying statistical properties in positive and negative\ntraining examples. We propose a two-step process to discover such\npatterns. Using locality sensitive hashing (LSH), we first estimate\nthe frequency of all subsequences and their approximate matches within\na given Hamming radius in labeled examples. The discriminative ability\nof each pattern is then assessed from the estimated frequencies by\nconcordance and rank sum testing. The use of LSH to identify\napproximate matches for each candidate pattern helps reduce the\nruntime of our method. Space requirements are reduced by decomposing\nthe search problem into an iterative method that uses a single LSH\ntable in memory. We propose two further optimizations to the search\nfor discriminative patterns. Clustering with redundancy based on a\n2-approximate solution of the <i>k</i>-center problem decreases the number\nof overlapping approximate groups while providing exhaustive coverage\nof the search space. Sequential statistical methods allow the search\nprocess to use data from only as many training examples as are needed\nto assess significance. We evaluated our algorithm on data sets from\ndifferent applications to discover sequential patterns for\nclassification. On nucleotide sequences from the Drosophila genome\ncompared with random background sequences, our method was able to\ndiscover approximate binding sites that were preserved upstream of\ngenes. We observed a similar result in experiments on ChIP-on-chip\ndata. For cardiovascular data from patients admitted with acute\ncoronary syndromes, our pattern discovery approach identified\napproximately conserved sequences of morphology variations that were\npredictive of future death in a test population. Our data showed that\nthe use of LSH, clustering, and sequential statistics improved the\nrunning time of the search algorithm by an order of magnitude without\nany noticeable effect on accuracy. These results suggest that our\nmethods may allow for an unsupervised approach to efficiently learn\ninteresting dissimilarities between positive and negative examples\nthat may have a functional role.",
+    "authors": [
+        "Zeeshan Syed",
+        "Piotr Indyk",
+        "John Guttag"
+    ],
+    "id": "syed09a",
+    "issue": 65,
+    "pages": [
+        1913,
+        1936
+    ],
+    "title": "Learning Approximate Sequential Patterns for Classification",
+    "volume": "10",
+    "year": "2009"
+}

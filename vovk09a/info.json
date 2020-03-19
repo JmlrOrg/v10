@@ -1,0 +1,16 @@
+{
+    "abstract": "We show that the Brier game of prediction is mixable\n  and find the optimal learning rate and substitution function for it.\n  The resulting prediction algorithm is applied\n  to predict results of football and tennis matches,\n  with well-known bookmakers playing the role of experts.\n  The theoretical performance guarantee\n  is not excessively loose on the football data set\n  and is rather tight on the tennis data set.",
+    "authors": [
+        "Vladimir Vovk",
+        "Fedor Zhdanov"
+    ],
+    "id": "vovk09a",
+    "issue": 84,
+    "pages": [
+        2445,
+        2471
+    ],
+    "title": "Prediction With Expert Advice For The Brier Game",
+    "volume": "10",
+    "year": "2009"
+}

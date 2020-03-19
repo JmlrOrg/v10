@@ -1,0 +1,19 @@
+{
+    "abstract": "We define a model of learning probabilistic acyclic circuits using\nvalue injection queries, in which fixed values are assigned to an\narbitrary subset of the wires and the value on the single output wire\nis observed.  We adapt the approach of using test paths from the\nCircuit Builder algorithm  (Angluin et al., 2009) to show that there is\na polynomial time algorithm that uses value injection queries to learn\nacyclic Boolean probabilistic circuits of constant fan-in and log\ndepth.  We establish upper and lower bounds on the attenuation factor\nfor general and transitively reduced Boolean probabilistic circuits of\ntest paths versus general experiments.  We give computational evidence\nthat a polynomial time learning algorithm using general value\ninjection experiments may not do much better than one using test\npaths.  For probabilistic circuits with alphabets of size three or\ngreater, we show that the test path lemmas\n(Angluin et al., 2009, 2008b) fail utterly.  To overcome this\nobstacle, we introduce function injection queries, in which the values\non a wire may be mapped to other values rather than just to themselves\nor constants, and prove a generalized test path lemma for this case.",
+    "authors": [
+        "Dana Angluin",
+        "James Aspnes",
+        "Jiang Chen",
+        "David Eisenstat",
+        "Lev Reyzin"
+    ],
+    "id": "angluin09a",
+    "issue": 64,
+    "pages": [
+        1881,
+        1911
+    ],
+    "title": "Learning Acyclic Probabilistic Circuits Using Test Paths",
+    "volume": "10",
+    "year": "2009"
+}

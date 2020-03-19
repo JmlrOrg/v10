@@ -1,0 +1,17 @@
+{
+    "abstract": "We present a method for training support vector machine (SVM)-based\nclassification systems for combination with other classification\nsystems designed for the same task. Ideally, a new system should be\ndesigned such that, when combined with existing systems, the resulting\nperformance is optimized. We present a simple model for this problem\nand use the understanding gained from this analysis to propose a\nmethod to achieve better combination performance when training SVM\nsystems. We include a regularization term in the SVM objective\nfunction that aims to reduce the average class-conditional covariance\nbetween the resulting scores and the scores produced by the existing\nsystems, introducing a trade-off between such covariance and the\nsystem's individual performance. That is, the new system \"takes one\nfor the team\", falling somewhat short of its best possible performance\nin order to increase the diversity of the ensemble. We report results\non the NIST 2005 and 2006 speaker recognition evaluations (SREs) for a\nvariety of subsystems. We show a gain of 19% on the equal error rate\n(EER) of a combination of four systems when applying the proposed\nmethod with respect to the performance obtained when the four systems\nare trained independently of each other.",
+    "authors": [
+        "Luciana Ferrer",
+        "Kemal S&#246;nmez",
+        "Elizabeth Shriberg"
+    ],
+    "id": "ferrer09a",
+    "issue": 71,
+    "pages": [
+        2079,
+        2114
+    ],
+    "title": "An Anticorrelation Kernel for Subsystem Training in Multiple Classifier Systems",
+    "volume": "10",
+    "year": "2009"
+}

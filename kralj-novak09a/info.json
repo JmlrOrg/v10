@@ -1,0 +1,17 @@
+{
+    "abstract": "This paper gives a survey of contrast set mining (CSM), emerging\npattern mining (EPM), and subgroup discovery (SD) in a unifying\nframework named <i>supervised descriptive rule discovery</i>. While all\nthese research areas aim at discovering patterns in the form of rules\ninduced from labeled data, they use different terminology and task\ndefinitions, claim to have different goals, claim to use different\nrule learning heuristics, and use different means for selecting\nsubsets of induced patterns. This paper contributes a novel\nunderstanding of these subareas of data mining by presenting a unified\nterminology, by explaining the apparent differences between the\nlearning tasks as variants of a unique supervised descriptive rule\ndiscovery task and by exploring the apparent differences between the\napproaches. It also shows that various rule learning heuristics used\nin CSM, EPM and SD algorithms all aim at optimizing a trade off\nbetween rule coverage and precision.  The commonalities (and\ndifferences) between the approaches are showcased on a selection of\nbest known variants of CSM, EPM and SD algorithms. The paper\nalso provides a critical survey of existing supervised descriptive\nrule discovery visualization methods.",
+    "authors": [
+        "Petra Kralj Novak",
+        "Nada Lavra&#269;",
+        "Geoffrey I. Webb"
+    ],
+    "id": "kralj-novak09a",
+    "issue": 13,
+    "pages": [
+        377,
+        403
+    ],
+    "title": "Supervised Descriptive Rule Discovery: A Unifying Survey of Contrast Set, Emerging Pattern and Subgroup Mining",
+    "volume": "10",
+    "year": "2009"
+}

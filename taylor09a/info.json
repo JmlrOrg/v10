@@ -1,0 +1,16 @@
+{
+    "abstract": "The reinforcement learning paradigm is a popular way to address\nproblems that have only limited environmental feedback, rather than\ncorrectly labeled examples, as is common in other machine learning\ncontexts. While significant progress has been made to improve learning\nin a single task, the idea of <i>transfer learning</i> has only\nrecently been applied to reinforcement learning tasks. The core idea\nof transfer is that experience gained in learning to perform one task\ncan help improve learning performance in a related, but different,\ntask. In this article we present a framework that classifies transfer\nlearning methods in terms of their capabilities and goals, and then\nuse it to survey the existing literature, as well as to suggest future\ndirections for transfer learning work.",
+    "authors": [
+        "Matthew E. Taylor",
+        "Peter Stone"
+    ],
+    "id": "taylor09a",
+    "issue": 55,
+    "pages": [
+        1633,
+        1685
+    ],
+    "title": "Transfer Learning for Reinforcement Learning Domains: A Survey",
+    "volume": "10",
+    "year": "2009"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "We address the problem of estimating the ratio of two probability density functions,\nwhich is often referred to as the <i>importance</i>.\nThe importance values can be used for various succeeding tasks such as\n<i>covariate shift adaptation</i> or <i>outlier detection</i>.\nIn this paper, we propose a new importance estimation method\nthat has a closed-form solution;\nthe leave-one-out cross-validation score\ncan also be computed analytically.\nTherefore, the proposed method is computationally highly efficient and simple \nto implement.\nWe also elucidate theoretical properties of the proposed method such as the convergence\nrate and approximation error bounds. \nNumerical experiments show that the proposed method\nis comparable to the best existing method in accuracy,\nwhile it is computationally more efficient\nthan competing approaches.",
+    "authors": [
+        "Takafumi Kanamori",
+        "Shohei Hido",
+        "Masashi Sugiyama"
+    ],
+    "id": "kanamori09a",
+    "issue": 47,
+    "pages": [
+        1391,
+        1445
+    ],
+    "title": "A Least-squares Approach to Direct Importance Estimation",
+    "volume": "10",
+    "year": "2009"
+}

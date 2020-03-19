@@ -1,0 +1,16 @@
+{
+    "abstract": "In the context of multiple hypothesis testing, the proportion <i>&pi;</i><sub>0</sub>\nof true null hypotheses in the pool of hypotheses to test \noften plays a crucial role, although it is generally\nunknown <i>a priori</i>. A testing procedure using an implicit or explicit estimate\nof this quantity in order to improve its efficency is called <i>adaptive</i>.\nIn this paper, we focus on\nthe issue of false discovery rate (FDR) control and we present new\nadaptive multiple testing procedures with control of the FDR.\nIn a first part, assuming independence of the <i>p</i>-values, we present two new procedures and\ngive a unified review of other existing adaptive procedures that have provably\ncontrolled FDR. We report\nextensive simulation results comparing these procedures\nand testing their robustness when the independence\nassumption is violated. The new proposed procedures appear\ncompetitive with existing ones. The overall best, though, is reported to\nbe Storey's estimator, albeit for a specific parameter setting that does not\nappear to have been considered before.\n  In a second part, we propose adaptive versions of step-up procedures that have provably\n  controlled FDR under positive dependence and unspecified dependence of the <i>p</i>-values, respectively. \n  In the latter case, while simulations only show an improvement over non-adaptive\n  procedures in limited situations, these are to our knowledge among the\n  first theoretically founded adaptive multiple testing procedures that control the FDR when the <i>p</i>-values\nare not independent.",
+    "authors": [
+        "Gilles Blanchard",
+        "&Eacute;tienne Roquain"
+    ],
+    "id": "blanchard09a",
+    "issue": 96,
+    "pages": [
+        2837,
+        2871
+    ],
+    "title": "Adaptive False Discovery Rate Control under Independence and Dependence",
+    "volume": "10",
+    "year": "2009"
+}

@@ -1,0 +1,19 @@
+{
+    "abstract": "Subgroup analysis is an integral part of comparative analysis\nwhere assessing the treatment effect on a response is of central\ninterest. Its goal is to determine the heterogeneity of the\ntreatment effect across subpopulations. In this paper, we adapt\nthe idea of recursive partitioning and introduce an interaction\ntree (IT) procedure to conduct subgroup analysis. The IT procedure\nautomatically facilitates a number of objectively defined\nsubgroups, in some of which the treatment effect is found\nprominent while in others the treatment has a negligible or even\nnegative effect. The standard CART (Breiman et al., 1984)\nmethodology is inherited to construct the tree structure. Also, in\norder to extract factors that contribute to the heterogeneity of\nthe treatment effect, variable importance measure is made\navailable via random forests of the interaction trees. Both\nsimulated experiments and analysis of census wage data are\npresented for illustration.",
+    "authors": [
+        "Xiaogang Su",
+        "Chih-Ling Tsai",
+        "Hansheng Wang",
+        "David M. Nickerson",
+        "Bogong Li"
+    ],
+    "id": "su09a",
+    "issue": 4,
+    "pages": [
+        141,
+        158
+    ],
+    "title": "Subgroup Analysis via Recursive Partitioning",
+    "volume": "10",
+    "year": "2009"
+}

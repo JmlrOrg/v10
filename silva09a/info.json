@@ -1,0 +1,16 @@
+{
+    "abstract": "Directed acyclic graphs (DAGs) have been widely used as a representation of\nconditional independence in machine learning and statistics. Moreover,\nhidden or latent variables are often an important component of graphical\nmodels. However,  DAG models suffer from an important limitation: the family\nof DAGs is not closed under marginalization of hidden variables.  This means\nthat in general we cannot use a DAG to represent the independencies over a\nsubset of variables in a larger DAG.  Directed mixed graphs (DMGs) are a\nrepresentation that includes DAGs as a special case, and overcomes this\nlimitation. This paper introduces algorithms for performing Bayesian\ninference in Gaussian and probit DMG models. An important requirement for\ninference is the specification of the distribution over parameters of the\nmodels. We introduce a new distribution for covariance matrices of Gaussian\nDMGs.  We discuss and illustrate how several Bayesian machine learning tasks\ncan benefit from the principle presented here: the power to model\ndependencies that are generated from hidden  variables, but without\nnecessarily modeling such variables explicitly.",
+    "authors": [
+        "Ricardo Silva",
+        "Zoubin Ghahramani"
+    ],
+    "id": "silva09a",
+    "issue": 40,
+    "pages": [
+        1187,
+        1238
+    ],
+    "title": "The Hidden Life of Latent Variables: Bayesian Learning with Mixed Graph Models",
+    "volume": "10",
+    "year": "2009"
+}

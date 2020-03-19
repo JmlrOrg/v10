@@ -1,0 +1,18 @@
+{
+    "abstract": "Consider the following problem: given sets of unlabeled observations,\neach set with known label proportions, predict the labels of another\nset of observations, possibly with known label proportions. This\nproblem occurs in areas like e-commerce, politics, spam filtering and\nimproper content detection. We present consistent estimators which can\nreconstruct the correct labels with high probability in a uniform\nconvergence sense. Experiments show that our method works well in\npractice.",
+    "authors": [
+        "Novi Quadrianto",
+        "Alex J. Smola",
+        "Tib&#x00E9;rio S. Caetano",
+        "Quoc V. Le"
+    ],
+    "id": "quadrianto09a",
+    "issue": 81,
+    "pages": [
+        2349,
+        2374
+    ],
+    "title": "Estimating Labels from Label Proportions",
+    "volume": "10",
+    "year": "2009"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "We propose a general method called <i>truncated gradient</i>\nto induce sparsity in the weights of\nonline-learning algorithms with convex loss functions.  This\nmethod has several essential properties:\n<ol>\n<li> The degree of sparsity is continuous---a parameter controls the\nrate of sparsification from no sparsification to total sparsification.\n<li> The approach is theoretically motivated, and an instance of it\ncan be regarded as an online counterpart of the popular\n<i>L</i><sub>1</sub>-regularization method in the batch setting.  We prove that small\nrates of sparsification result in only small additional regret with\nrespect to typical online-learning guarantees.\n<li> The approach works well empirically.\n</ol>\nWe apply the approach to several data sets and find for data sets with\nlarge numbers of features, substantial sparsity is discoverable.",
+    "authors": [
+        "John Langford",
+        "Lihong Li",
+        "Tong Zhang"
+    ],
+    "id": "langford09a",
+    "issue": 27,
+    "pages": [
+        777,
+        801
+    ],
+    "title": "Sparse Online Learning via Truncated Gradient",
+    "volume": "10",
+    "year": "2009"
+}

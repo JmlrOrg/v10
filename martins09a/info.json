@@ -1,0 +1,19 @@
+{
+    "abstract": "Positive definite kernels on probability measures\nhave been recently applied to classification problems involving\ntext, images, and other types of structured data.\nSome of these kernels are related to classic information\ntheoretic quantities, such as (Shannon's) mutual information\nand the Jensen-Shannon (JS) divergence. Meanwhile, there have\nbeen recent advances in  nonextensive generalizations of Shannon's\ninformation theory. This paper bridges these\ntwo trends by introducing  nonextensive information theoretic\nkernels on probability measures, based on new JS-type divergences.\nThese new divergences result from extending the\nthe two building blocks of the classical JS divergence:\nconvexity and Shannon's entropy. The notion of\nconvexity is extended to the wider concept of <i>q</i>-convexity,\nfor which we prove a Jensen <i>q</i>-inequality. Based on\nthis inequality, we introduce Jensen-Tsallis (JT) <i>q</i>-differences, a\nnonextensive generalization of the JS divergence, and define\na <i>k</i>-th order JT <i>q</i>-difference between stochastic processes.\nWe then define a new family of nonextensive mutual information\nkernels, which allow weights to be assigned to their arguments,\nand which includes the Boolean, JS, and linear kernels\nas particular cases. Nonextensive string kernels are also defined\nthat generalize the <i>p</i>-spectrum kernel. We illustrate the performance\nof these kernels on text categorization tasks, in which documents\nare modeled both as bags of words and as sequences of characters.",
+    "authors": [
+        "Andr&#233; F. T. Martins",
+        "Noah A. Smith",
+        "Eric P. Xing",
+        "Pedro M. Q. Aguiar",
+        "M&#225;rio A. T. Figueiredo"
+    ],
+    "id": "martins09a",
+    "issue": 34,
+    "pages": [
+        935,
+        975
+    ],
+    "title": "Nonextensive Information Theoretic Kernels on Measures",
+    "volume": "10",
+    "year": "2009"
+}

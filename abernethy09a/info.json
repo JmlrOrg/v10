@@ -1,0 +1,18 @@
+{
+    "abstract": "We present a general approach for collaborative filtering (CF) using\nspectral regularization to learn linear operators mapping a set of\n\"users\" to a set of possibly desired \"objects\". In particular,\nseveral recent low-rank type matrix-completion methods for CF are\nshown to be special cases of our proposed framework. Unlike existing\nregularization-based CF, our approach can be used to incorporate\nadditional information such as attributes of the users/objects---a\nfeature currently lacking in existing regularization-based CF\napproaches---using popular and well-known <i>kernel methods</i>. We\nprovide novel representer theorems that we use to develop new\nestimation methods. We then provide learning algorithms based on\nlow-rank decompositions and test them on a standard CF data set.  The\nexperiments indicate the advantages of generalizing the existing\nregularization-based CF methods to incorporate related information\nabout users and objects. Finally, we show that certain multi-task\nlearning methods can be also seen as special cases of our proposed\napproach.",
+    "authors": [
+        "Jacob Abernethy",
+        "Francis Bach",
+        "Theodoros Evgeniou",
+        "Jean-Philippe Vert"
+    ],
+    "id": "abernethy09a",
+    "issue": 28,
+    "pages": [
+        803,
+        826
+    ],
+    "title": "A New Approach to Collaborative Filtering: Operator Estimation with Spectral Regularization",
+    "volume": "10",
+    "year": "2009"
+}

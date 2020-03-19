@@ -1,0 +1,15 @@
+{
+    "abstract": "In this paper, we introduce DL-Learner, a framework for learning in description logics and OWL. OWL is the official W3C standard ontology language for the Semantic Web. Concepts in this language can be learned for constructing and maintaining OWL ontologies or for solving problems similar to those in Inductive Logic Programming. DL-Learner includes several learning algorithms, support for different OWL formats, reasoner interfaces, and learning problems.\nIt is a cross-platform framework implemented in Java. The framework allows easy programmatic access and provides a command line interface, a graphical interface as well as a WSDL-based web service.",
+    "authors": [
+        "Jens Lehmann"
+    ],
+    "id": "lehmann09a",
+    "issue": 90,
+    "pages": [
+        2639,
+        2642
+    ],
+    "title": "DL-Learner: Learning Concepts in Description Logics",
+    "volume": "10",
+    "year": "2009"
+}

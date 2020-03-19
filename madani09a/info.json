@@ -1,0 +1,17 @@
+{
+    "abstract": "Many learning tasks, such as large-scale text categorization and\n  word prediction, can benefit from efficient training and\n  classification when the number of classes, in addition to instances\n  and features, is large, that is, in the thousands and beyond.  We\n  investigate the learning of sparse class <i>indices</i> to address\n  this challenge.  An index is a mapping from features to classes.  We\n  compare the index-learning methods against other techniques,\n  including one-versus-rest and top-down classification using\n  perceptrons and support vector machines.  We find that\n  index learning is highly advantageous for space and time efficiency,\n  at both training and classification times. Moreover, this approach\n  yields similar and at times better accuracies.  On problems with\n  hundreds of thousands of instances and thousands of classes, the\n  index is learned in minutes, while other methods can take hours or\n  days.\nAs we explain, the design of the learning update\n  enables\n  conveniently\n  constraining each feature to connect to a small subset of the classes\n  in the index.  This constraint is crucial for scalability.  Given an\n  instance with <i>l</i> active (positive-valued) features, each feature on\n  average connecting to <i>d</i> classes in the index (in the order of 10s\n  in our experiments), update and classification take <i>O</i>(<i>dl</i> log(<i>dl</i>)).",
+    "authors": [
+        "Omid Madani",
+        "Michael Connor",
+        "Wiley Greiner"
+    ],
+    "id": "madani09a",
+    "issue": 88,
+    "pages": [
+        2571,
+        2613
+    ],
+    "title": "Learning When Concepts Abound",
+    "volume": "10",
+    "year": "2009"
+}

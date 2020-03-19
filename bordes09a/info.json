@@ -1,0 +1,17 @@
+{
+    "abstract": "The SGD-QN algorithm is a stochastic gradient descent algorithm that\nmakes careful use of second-order information and splits the parameter\nupdate into independently scheduled components. Thanks to this design,\nSGD-QN iterates nearly as fast as a first-order stochastic gradient\ndescent but requires less iterations to achieve the same accuracy.\nThis algorithm won the \"Wild Track\" of the first PASCAL Large Scale\nLearning Challenge (Sonnenburg et al., 2008).",
+    "authors": [
+        "Antoine Bordes",
+        "L&#233;on Bottou",
+        "Patrick Gallinari"
+    ],
+    "id": "bordes09a",
+    "issue": 58,
+    "pages": [
+        1737,
+        1754
+    ],
+    "title": "SGD-QN: Careful Quasi-Newton Stochastic Gradient Descent",
+    "volume": "10",
+    "year": "2009"
+}

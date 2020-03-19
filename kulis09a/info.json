@@ -1,0 +1,17 @@
+{
+    "abstract": "In this paper, we study low-rank matrix nearness problems, with a\nfocus on learning low-rank positive semidefinite (kernel) matrices for\nmachine learning applications.  We propose efficient algorithms that\nscale linearly in the number of data points and quadratically in the\nrank of the input matrix.  Existing algorithms for learning kernel\nmatrices often scale poorly, with running times that are cubic in the\nnumber of data points. We employ Bregman matrix divergences as the\nmeasures of nearness---these divergences are natural for learning\nlow-rank kernels since they preserve rank as well as positive\nsemidefiniteness.  Special cases of our framework yield faster\nalgorithms for various existing learning problems, and experimental\nresults demonstrate that our algorithms can effectively learn both\nlow-rank and full-rank kernel matrices.",
+    "authors": [
+        "Brian Kulis",
+        "M&#225;ty&#225;s A. Sustik",
+        "Inderjit S. Dhillon"
+    ],
+    "id": "kulis09a",
+    "issue": 12,
+    "pages": [
+        341,
+        376
+    ],
+    "title": "Low-Rank Kernel Learning with Bregman Matrix Divergences",
+    "volume": "10",
+    "year": "2009"
+}

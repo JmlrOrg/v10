@@ -1,0 +1,15 @@
+{
+    "abstract": "In this paper we introduce N<small>IEME</small>, a machine learning library for\nlarge-scale classification, regression and ranking.  N<small>IEME</small>, relies on\nthe framework of <i>energy-based models</i> (LeCun et al., 2006) which\nunifies several learning algorithms ranging from simple perceptrons to\nrecent models such as the pegasos support vector machine or\nl1-regularized maximum entropy models. This framework also unifies\nbatch and stochastic learning which are both seen as energy\nminimization problems.  N<small>IEME</small>, can hence be used in a wide range of\nsituations, but is particularly interesting for large-scale learning\ntasks where both the examples and the features are processed\nincrementally. Being able to deal with new incoming features at any\ntime within the learning process is another original feature of the\n N<small>IEME</small>, toolbox.  N<small>IEME</small>, is released under the GPL license. It is\nefficiently implemented in C++, it works on Linux, Mac OS X and\nWindows and provides interfaces for C++, Java and Python.",
+    "authors": [
+        "Francis Maes"
+    ],
+    "id": "maes09a",
+    "issue": 25,
+    "pages": [
+        743,
+        746
+    ],
+    "title": "Nieme: Large-Scale Energy-Based Models",
+    "volume": "10",
+    "year": "2009"
+}

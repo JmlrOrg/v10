@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\nWe study the properties of the agnostic learning framework of\nHaussler (1992) and Kearns, Schapire, and Sellie (1994). In particular, we\naddress the question: is there any situation in which membership\nqueries are useful in agnostic learning?\n</p>\n\n<p>\nOur results show that the answer is negative for\ndistribution-independent agnostic learning and positive for agnostic\nlearning with respect to a specific marginal distribution. Namely, we\ngive a simple proof that any concept class learnable agnostically by a\ndistribution-independent algorithm with access to membership queries\nis also learnable agnostically without membership queries. This\nresolves an open problem posed by Kearns et al. (1994). For agnostic\nlearning with respect to the uniform distribution over {0,1}<sup><i>n</i></sup> we show\na concept class that is learnable with membership queries but\ncomputationally hard to learn from random examples alone (assuming\nthat one-way functions exist).\n</p>",
+    "authors": [
+        "Vitaly Feldman"
+    ],
+    "id": "feldman09a",
+    "issue": 6,
+    "pages": [
+        163,
+        182
+    ],
+    "title": "On The Power of Membership Queries in Agnostic Learning",
+    "volume": "10",
+    "year": "2009"
+}

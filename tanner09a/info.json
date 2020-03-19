@@ -1,0 +1,16 @@
+{
+    "abstract": "RL-Glue is a standard, language-independent software package for\nreinforcement-learning experiments.  The standardization provided by\nRL-Glue facilitates code sharing and collaboration.  Code sharing\nreduces the need to re-engineer tasks and experimental apparatus, both\ncommon barriers to comparatively evaluating new ideas in the context\nof the literature.  Our software features a minimalist interface and\nworks with several languages and computing platforms. RL-Glue\ncompatibility can be extended to any programming language that\nsupports network socket communication. RL-Glue has been used to teach\nclasses, to run international competitions, and is currently used by\nseveral other open-source software and hardware projects.",
+    "authors": [
+        "Brian Tanner",
+        "Adam White"
+    ],
+    "id": "tanner09a",
+    "issue": 73,
+    "pages": [
+        2133,
+        2136
+    ],
+    "title": "RL-Glue: Language-Independent Software for Reinforcement-Learning Experiments",
+    "volume": "10",
+    "year": "2009"
+}

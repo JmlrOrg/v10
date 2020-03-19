@@ -1,0 +1,16 @@
+{
+    "abstract": "We study boosting algorithms for learning to rank. We give a general\nmargin-based bound for ranking based on covering numbers for the\nhypothesis space. Our bound suggests that algorithms that maximize the\nranking margin will generalize well. We then describe a new algorithm,\nsmooth margin ranking, that precisely converges to a maximum\nranking-margin solution. The algorithm is a modification of RankBoost,\nanalogous to \"approximate coordinate ascent boosting.\" Finally, we\nprove that AdaBoost and RankBoost are equally good for the problems of\nbipartite ranking and classification in terms of their asymptotic\nbehavior on the training set. Under natural conditions, AdaBoost\nachieves an area under the ROC curve that is equally as good as\nRankBoost's; furthermore, RankBoost, when given a specific intercept,\nachieves a misclassification error that is as good as AdaBoost's. This\nmay help to explain the empirical observations made by Cortes and\nMohri, and Caruana and Niculescu-Mizil, about the excellent\nperformance of AdaBoost as a bipartite ranking algorithm, as measured\nby the area under the ROC curve.",
+    "authors": [
+        "Cynthia Rudin",
+        "Robert E. Schapire"
+    ],
+    "id": "rudin09a",
+    "issue": 76,
+    "pages": [
+        2193,
+        2232
+    ],
+    "title": "Margin-based Ranking and an Equivalence between AdaBoost and RankBoost",
+    "volume": "10",
+    "year": "2009"
+}

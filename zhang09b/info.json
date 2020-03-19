@@ -1,0 +1,17 @@
+{
+    "abstract": "We introduce the notion of reproducing kernel Banach spaces (RKBS)\nand study special semi-inner-product RKBS by making use of\nsemi-inner-products and the duality mapping. Properties of an RKBS\nand its reproducing kernel are investigated. As applications, we\ndevelop in the framework of RKBS standard learning schemes including\nminimal norm interpolation, regularization network, support vector\nmachines, and kernel principal component analysis. In particular,\nexistence, uniqueness and representer theorems are established.",
+    "authors": [
+        "Haizhang Zhang",
+        "Yuesheng Xu",
+        "Jun Zhang"
+    ],
+    "id": "zhang09b",
+    "issue": 94,
+    "pages": [
+        2741,
+        2775
+    ],
+    "title": "Reproducing Kernel Banach Spaces for Machine Learning",
+    "volume": "10",
+    "year": "2009"
+}

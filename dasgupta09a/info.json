@@ -1,0 +1,17 @@
+{
+    "abstract": "We start by showing that in an active learning setting, the Perceptron algorithm\nneeds &#937;(1/&#949;<sup>2</sup>) labels to learn linear\nseparators within generalization error &#949;. We then present\na simple active learning algorithm for this problem, which\ncombines a modification of the Perceptron update with an adaptive\nfiltering rule for deciding which\npoints to query. For data distributed uniformly over the unit\nsphere, we show that our algorithm reaches generalization error\n&#949; after asking for just <i>&#213;</i>(<i>d</i> log 1/&#949;) labels. \nThis exponential improvement over the\nusual sample complexity of supervised learning had previously been\ndemonstrated only for the computationally more complex\nquery-by-committee algorithm.",
+    "authors": [
+        "Sanjoy Dasgupta",
+        "Adam Tauman Kalai",
+        "Claire Monteleoni"
+    ],
+    "id": "dasgupta09a",
+    "issue": 10,
+    "pages": [
+        281,
+        299
+    ],
+    "title": "Analysis of Perceptron-Based Active Learning",
+    "volume": "10",
+    "year": "2009"
+}
