@@ -6,14 +6,12 @@
         "Yvan Saeys"
     ],
     "id": "abeel09a",
-    "issue": 33,
+    "issue": 34,
     "pages": [
         931,
         934
     ],
     "title": "Java-ML: A Machine Learning Library",
     "volume": "10",
-    "year": "2009",
-    "special_issue": "MLOSS",
-    "extra_links": [["webpage", "http://java-ml.sourceforge.net/"]]
+    "year": "2009"
 }
