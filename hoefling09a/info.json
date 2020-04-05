@@ -1,7 +1,7 @@
 {
     "abstract": "We consider the problems of estimating the parameters as well as the\nstructure of binary-valued Markov networks. For maximizing the\npenalized log-likelihood, we implement an approximate procedure based\non the pseudo-likelihood of Besag (1975) and generalize it to a\nfast exact algorithm. The exact algorithm starts with the\npseudo-likelihood solution and then adjusts the pseudo-likelihood\ncriterion so that each additional iterations moves it closer to the\nexact solution. Our results show that this procedure is faster than\nthe competing exact method proposed by Lee, Ganapathi, and Koller (2006a). \nHowever, we also find that the approximate pseudo-likelihood as well as the \napproaches of Wainwright et al. (2006), when\nimplemented using the coordinate descent procedure of\nFriedman, Hastie, and Tibshirani (2008b), are much faster than the exact methods, and only\nslightly less accurate.",
     "authors": [
-        "Holger H&#246;fling",
+        "Holger H{{\\\"o}}fling",
         "Robert Tibshirani"
     ],
     "id": "hoefling09a",

@@ -1,9 +1,9 @@
 {
     "abstract": "The collaborative filtering (CF) using known user ratings of items has\nproved to be effective for predicting user preferences in item\nselection. This thriving subfield of machine learning became popular\nin the late 1990s with the spread of online services that use\nrecommender systems, such as Amazon, Yahoo! Music, and Netflix. CF\napproaches are usually designed to work on very large data\nsets. Therefore the scalability of the methods is crucial. In this\nwork, we propose various scalable solutions that are validated against\nthe Netflix Prize data set, currently the largest publicly available\ncollection. First, we propose various matrix factorization (MF) based\ntechniques. Second, a neighbor correction method for MF is outlined,\nwhich alloys the global perspective of MF and the localized property\nof neighbor based approaches efficiently. In the experimentation\nsection, we first report on some implementation issues, and we suggest\non how parameter optimization can be performed efficiently for MFs. We\nthen show that the proposed scalable approaches compare favorably with\nexisting ones in terms of prediction accuracy and/or required training\ntime. Finally, we report on some experiments performed on MovieLens\nand Jester data sets.",
     "authors": [
-        "G&#225;bor Tak&#225;cs",
-        "Istv&#225;n Pil&#225;szy",
-        "Botty&#225;n N&#233;meth",
+        "G{{\\'a}}bor Tak{{\\'a}}cs",
+        "Istv{{\\'a}}n Pil{{\\'a}}szy",
+        "Botty{{\\'a}}n N{{\\'e}}meth",
         "Domonkos Tikk"
     ],
     "id": "takacs09a",

@@ -2,7 +2,7 @@
     "abstract": "We address classification problems for which the training instances\nare governed by an input distribution that is allowed to differ\narbitrarily from the test distribution---problems also referred to as\nclassification under covariate shift.  We derive a solution that is\npurely discriminative: neither training nor test distribution are\nmodeled explicitly.  The problem of learning under covariate shift can\nbe written as an integrated optimization problem. Instantiating the\ngeneral optimization problem leads to a kernel logistic regression and\nan exponential model classifier for covariate shift.  The optimization\nproblem is convex under certain conditions; our findings also clarify\nthe relationship to the known kernel mean matching procedure.  We\nreport on experiments on problems of spam filtering, text\nclassification, and landmine detection.",
     "authors": [
         "Steffen Bickel",
-        "Michael Br&#252;ckner",
+        "Michael Br{{\\\"u}}ckner",
         "Tobias Scheffer"
     ],
     "id": "bickel09a",

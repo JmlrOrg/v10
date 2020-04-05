@@ -1,8 +1,8 @@
 {
     "abstract": "We have developed an optimized cutting plane algorithm (OCA) for solving large-scale\nrisk minimization problems. We prove that the number of iterations OCA\nrequires to converge to a &#949; precise solution is approximately linear\nin the sample size. We also derive OCAS, an OCA-based linear binary Support\nVector Machine (SVM) solver, and OCAM, a linear multi-class SVM solver.  In an\nextensive empirical evaluation we show that OCAS outperforms current\nstate-of-the-art SVM solvers like SVM<sup>light</sup>, SVM<sup>perf</sup> and BMRM, achieving\nspeedup factor more than 1,200 over SVM<sup>light</sup> on some data sets and speedup\nfactor of 29 over SVM<sup>perf</sup>, while obtaining the same precise support vector\nsolution.  OCAS, even in the early optimization steps, often shows faster\nconvergence than the currently prevailing approximative methods in this domain, SGD\nand Pegasos.  In addition, our proposed linear multi-class SVM solver, OCAM,\nachieves speedups of factor of up to 10 compared to SVM<sup>multi-class</sup>. Finally, we\nuse OCAS and OCAM in two real-world applications, the problem of human acceptor\nsplice site detection and malware detection.  Effectively parallelizing OCAS, we\nachieve state-of-the-art results on an acceptor splice site recognition problem\nonly by being able to learn from all the available 50 million examples in a \n12-million-dimensional feature space. Source code, data sets and scripts to\nreproduce the experiments are available at\n<tt><a href=\"http://cmp.felk.cvut.cz/~xfrancv/ocas/html/\">http://cmp.felk.cvut.cz/~xfrancv/ocas/html/</a></tt>.",
     "authors": [
-        "Vojt&#x011B;ch Franc",
-        "S&#246;ren Sonnenburg"
+        "Vojt{\\v{e}}ch Franc",
+        "S{{\\\"o}}ren Sonnenburg"
     ],
     "id": "franc09a",
     "issue": 75,

@@ -1,7 +1,7 @@
 {
     "abstract": "<p>\nWith the rapid growth of computer storage capacities, available data\nand demand for scoring models both follow an increasing trend, sharper\nthan that of the processing power. However, the main limitation to a\nwide spread of data mining solutions is the non-increasing\navailability of skilled data analysts, which play a key role in data\npreparation and model selection.\n</p>\n<p>\nIn this paper, we present a parameter-free scalable classification\nmethod, which is a step towards fully automatic data mining.  The\nmethod is based on Bayes optimal univariate conditional density\nestimators, naive Bayes classification enhanced with a Bayesian\nvariable selection scheme, and averaging of models using a logarithmic\nsmoothing of the posterior distribution.  We focus on the complexity\nof the algorithms and show how they can cope with data sets that are\nfar larger than the available central memory. We finally report\nresults on the Large Scale Learning challenge, where our method\nobtains state of the art performance within practicable computation\ntime.\n</p>",
     "authors": [
-        "Marc Boull&#233;"
+        "Marc Boull{{\\'e}}"
     ],
     "id": "boulle09a",
     "issue": 45,
