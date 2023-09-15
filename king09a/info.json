@@ -12,5 +12,6 @@
     "title": "Dlib-ml: A Machine Learning Toolkit",
     "volume": "10",
     "year": "2009",
-    "special_issue": "MLOSS"
+    "special_issue": "MLOSS",
+    "extra_links": [["code", "https://sourceforge.net/projects/dclib/"]]
 }

@@ -14,5 +14,6 @@
     "title": "Java-ML: A Machine Learning Library",
     "volume": "10",
     "year": "2009",
-    "special_issue": "MLOSS"
+    "special_issue": "MLOSS",
+    "extra_links": [["code", "http://java-ml.sourceforge.net"]]
 }
